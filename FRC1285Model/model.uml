@@ -1,0 +1,1633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_EmYpEIVuEeWOiZuWluocjA" name="RootElement">
+  <packagedElement xmi:type="uml:Model" xmi:id="_3iuwEIVuEeWOiZuWluocjA" name="generated">
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_3jF8cYVuEeWOiZuWluocjA" name="Double"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_3jp9IIVuEeWOiZuWluocjA" name="edu">
+      <packagedElement xmi:type="uml:Package" xmi:id="_3jqkMIVuEeWOiZuWluocjA" name="wpi">
+        <packagedElement xmi:type="uml:Package" xmi:id="_3jqkMYVuEeWOiZuWluocjA" name="first">
+          <packagedElement xmi:type="uml:Package" xmi:id="_3jqkMoVuEeWOiZuWluocjA" name="wpilibj">
+            <packagedElement xmi:type="uml:Class" xmi:id="_3ju1oIVuEeWOiZuWluocjA" name="Joystick"/>
+            <packagedElement xmi:type="uml:Package" xmi:id="_3jxR4IVuEeWOiZuWluocjA" name="buttons">
+              <packagedElement xmi:type="uml:Class" xmi:id="_3jxR4YVuEeWOiZuWluocjA" name="JoystickButton"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_3kFa8IVuEeWOiZuWluocjA" name="IterativeRobot"/>
+            <packagedElement xmi:type="uml:Package" xmi:id="_3kKTcIVuEeWOiZuWluocjA" name="smartdashboard">
+              <packagedElement xmi:type="uml:Class" xmi:id="_3kKTcYVuEeWOiZuWluocjA" name="SendableChooser"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_3kK6gIVuEeWOiZuWluocjA" name="Preferences"/>
+            <packagedElement xmi:type="uml:Package" xmi:id="_3kN90IVuEeWOiZuWluocjA" name="command">
+              <packagedElement xmi:type="uml:Class" xmi:id="_3kN90YVuEeWOiZuWluocjA" name="Command"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_3lBPEYVuEeWOiZuWluocjA" name="CommandGroup"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_3mo_sIVuEeWOiZuWluocjA" name="Subsystem"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_3kOk4IVuEeWOiZuWluocjA" name="Compressor"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_3meAkIVuEeWOiZuWluocjA" name="Timer"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_3mpmwYVuEeWOiZuWluocjA" name="CANTalon"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_3mrb8YVuEeWOiZuWluocjA" name="Encoder"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_3m0l4YVuEeWOiZuWluocjA" name="DigitalInput"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_3m4QQYVuEeWOiZuWluocjA" name="DoubleSolenoid"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_3nFroYVuEeWOiZuWluocjA" name="SpeedController"/>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_3oyUwIVuEeWOiZuWluocjA" name="Sendable"/>
+            <packagedElement xmi:type="uml:Package" xmi:id="_3o1YEIVuEeWOiZuWluocjA" name="networktables2">
+              <packagedElement xmi:type="uml:Package" xmi:id="_3o1YEYVuEeWOiZuWluocjA" name="type">
+                <packagedElement xmi:type="uml:Class" xmi:id="_3o1_IIVuEeWOiZuWluocjA" name="StringArray"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_3o63ooVuEeWOiZuWluocjA" name="tables">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_3o7esIVuEeWOiZuWluocjA" name="ITable"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Model" xmi:id="_3i2E0IVuEeWOiZuWluocjA" name="datatype">
+    <packagedElement xmi:type="uml:Package" xmi:id="_3i2E0YVuEeWOiZuWluocjA" name="datatype">
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_3i2r4IVuEeWOiZuWluocjA" name="Integer"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_3jHxoIVuEeWOiZuWluocjA" name="Boolean"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_3nR44YVuEeWOiZuWluocjA" name="Long"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Model" xmi:id="_3lS74YVuEeWOiZuWluocjA" name="java">
+    <packagedElement xmi:type="uml:Package" xmi:id="_3lTi8IVuEeWOiZuWluocjA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_3lTi8YVuEeWOiZuWluocjA" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_3lTi8oVuEeWOiZuWluocjA" name="String"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_3osOIYVuEeWOiZuWluocjA" name="Object"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_3nLyQIVuEeWOiZuWluocjA" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_3nMZUIVuEeWOiZuWluocjA" name="Hashtable"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_3n8nQIVuEeWOiZuWluocjA" name="Vector"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_3nX_gIVuEeWOiZuWluocjA" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_3nX_gYVuEeWOiZuWluocjA" name="PrintWriter"/>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Model" xmi:id="_pMBW8IVzEeWOiZuWluocjA" name="src">
+    <packagedElement xmi:type="uml:Package" xmi:id="_On9-kIV1EeWOiZuWluocjA" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_On_zwIV1EeWOiZuWluocjA" name="team1285"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_q_emsIV1EeWOiZuWluocjA" name="Tool Op"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_thDLkIV1EeWOiZuWluocjA" name="Driver"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_wIz4AIV1EeWOiZuWluocjA" name="ElevatorUp"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_xYiagIV1EeWOiZuWluocjA" name="TankDrive"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2jp0gIV1EeWOiZuWluocjA" memberEnd="_2j1asIV1EeWOiZuWluocjA _2j2BwIV1EeWOiZuWluocjA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2jzlgIV1EeWOiZuWluocjA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2j0MkIV1EeWOiZuWluocjA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2j1asIV1EeWOiZuWluocjA" name="drive" type="_xYiagIV1EeWOiZuWluocjA" association="_2jp0gIV1EeWOiZuWluocjA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2j2BwIV1EeWOiZuWluocjA" name="driver" type="_thDLkIV1EeWOiZuWluocjA" association="_2jp0gIV1EeWOiZuWluocjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5ER-MIV1EeWOiZuWluocjA" memberEnd="_5ESlQoV1EeWOiZuWluocjA _5ETMUIV1EeWOiZuWluocjA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5ESlQIV1EeWOiZuWluocjA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5ESlQYV1EeWOiZuWluocjA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5ESlQoV1EeWOiZuWluocjA" name="usecase1" type="_wIz4AIV1EeWOiZuWluocjA" association="_5ER-MIV1EeWOiZuWluocjA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5ETMUIV1EeWOiZuWluocjA" name="tool op" type="_q_emsIV1EeWOiZuWluocjA" association="_5ER-MIV1EeWOiZuWluocjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_ifjawIV6EeWOiZuWluocjA" name="robot">
+    <packagedElement xmi:type="uml:Class" xmi:id="_ifjawYV6EeWOiZuWluocjA" name="ElectricalConstants" visibility="public">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_ifjawoV6EeWOiZuWluocjA">
+        <body>&#xD;
+ *&#xD;
+ * @author Mahrus&#xD;
+ </body>
+      </ownedComment>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifjaw4V6EeWOiZuWluocjA" name="RIGHT_COPY_DRIVE_FRONT" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifjaxIV6EeWOiZuWluocjA" name="RIGHT_COPY_DRIVE_BACK" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifjaxYV6EeWOiZuWluocjA" name="LEFT_COPY_DRIVE_FRONT" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifjaxoV6EeWOiZuWluocjA" name="LEFT_COPY_DRIVE_BACK" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifjax4V6EeWOiZuWluocjA" name="COPY_RIGHT_ELEVATOR_MOTOR" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifjayIV6EeWOiZuWluocjA" name="COPY_LEFT_ELEVATOR_MOTOR" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifjayYV6EeWOiZuWluocjA" name="COPY_CONTAINER_MOTOR" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifjayoV6EeWOiZuWluocjA" name="LEFT_INTAKE_MOTOR" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifjay4V6EeWOiZuWluocjA" name="RIGHT_INTAKE_MOTOR" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifjazIV6EeWOiZuWluocjA" name="COPY_POT" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifjazYV6EeWOiZuWluocjA" name="COPY_RIGHT_ENCODER_A" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifjazoV6EeWOiZuWluocjA" name="COPY_RIGHT_ENCODER_B" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifjaz4V6EeWOiZuWluocjA" name="COPY_LEFT_ENCODER_A" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifja0IV6EeWOiZuWluocjA" name="COPY_LEFT_ENCODER_B" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifja0YV6EeWOiZuWluocjA" name="COPY_ELEVATOR_ENCODER_A" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifja0oV6EeWOiZuWluocjA" name="COPY_ELEVATOR_ENCODER_B" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifja04V6EeWOiZuWluocjA" name="GRABBER_SOLENOID_A" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifja1IV6EeWOiZuWluocjA" name="GRABBER_SOLENOID_B" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifja1YV6EeWOiZuWluocjA" name="CLAW_SOLENOID_A" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifja1oV6EeWOiZuWluocjA" name="CLAW_SOLENOID_B" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifja14V6EeWOiZuWluocjA" name="PCM" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifja2IV6EeWOiZuWluocjA" name="LEFT_INTAKE_PISTON_FORWARD" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifja2YV6EeWOiZuWluocjA" name="LEFT_INTAKE_PISTON_REVERSE" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifja2oV6EeWOiZuWluocjA" name="RIGHT_INTAKE_PISTON_FORWARD" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB0IV6EeWOiZuWluocjA" name="RIGHT_INTAKE_PISTON_REVERSE" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB0YV6EeWOiZuWluocjA" name="COPY_TOOL_RIGHT_BUMPER" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB0oV6EeWOiZuWluocjA" name="COPY_TOOL_LEFT_BUMPER" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB04V6EeWOiZuWluocjA" name="COPY_ELEVATOR_BOTTOM_BUMPER" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB1IV6EeWOiZuWluocjA" name="COPY_ELEVATOR_TOP_BUMPER" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB1YV6EeWOiZuWluocjA" name="driveWheelRadius" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB1oV6EeWOiZuWluocjA" name="pulsePerRotation" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB14V6EeWOiZuWluocjA" name="gearRatio" visibility="public" isLeaf="true" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB2IV6EeWOiZuWluocjA" name="driveEncoderPulsePerRot" visibility="public" isLeaf="true" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB2YV6EeWOiZuWluocjA" name="driveEncoderDistPerTick" visibility="public" isLeaf="true" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB2oV6EeWOiZuWluocjA" name="rightDriveTrainEncoderReverse" visibility="public" isLeaf="true" isStatic="true" type="_3jHxoIVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB24V6EeWOiZuWluocjA" name="leftDriveTrainEncoderReverse" visibility="public" isLeaf="true" isStatic="true" type="_3jHxoIVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB3IV6EeWOiZuWluocjA" name="elevatorPullyRadius" visibility="public" isLeaf="true" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB3YV6EeWOiZuWluocjA" name="elevPulsePerRotation" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB3oV6EeWOiZuWluocjA" name="elevGearRatio" visibility="public" isLeaf="true" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB34V6EeWOiZuWluocjA" name="elevEncoderPulsePerRot" visibility="public" isLeaf="true" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB4IV6EeWOiZuWluocjA" name="elevEncoderDistPerTick" visibility="public" isLeaf="true" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB4YV6EeWOiZuWluocjA" name="copyElevatorEncoderReverse" visibility="public" isLeaf="true" isStatic="true" type="_3jHxoIVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB4oV6EeWOiZuWluocjA" name="pasteElevatorEncoderReverse" visibility="public" isLeaf="true" isStatic="true" type="_3jHxoIVuEeWOiZuWluocjA" isUnique="false"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ifkB44V6EeWOiZuWluocjA" name="GamepadConstants" visibility="public">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_ifkB5IV6EeWOiZuWluocjA">
+        <body>&#xD;
+ *&#xD;
+ * @author Sagar&#xD;
+ </body>
+      </ownedComment>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB5YV6EeWOiZuWluocjA" name="X_BUTTON" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkB5oV6EeWOiZuWluocjA">
+          <body>****************************Joystick Mapping*******************************</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB54V6EeWOiZuWluocjA" name="A_BUTTON" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB6IV6EeWOiZuWluocjA" name="B_BUTTON" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB6YV6EeWOiZuWluocjA" name="Y_BUTTON" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB6oV6EeWOiZuWluocjA" name="LEFT_BUMPER" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB64V6EeWOiZuWluocjA" name="RIGHT_BUMPER" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB7IV6EeWOiZuWluocjA" name="LEFT_TRIGGER" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB7YV6EeWOiZuWluocjA" name="RIGHT_TRIGGER" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB7oV6EeWOiZuWluocjA" name="BACK_BUTTON" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB74V6EeWOiZuWluocjA" name="START_BUTTON" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB8IV6EeWOiZuWluocjA" name="LEFT_ANALOG_BUTTON" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB8YV6EeWOiZuWluocjA" name="RIGHT_ANALOG_BUTTON" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB8oV6EeWOiZuWluocjA" name="LEFT_ANALOG_X" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB84V6EeWOiZuWluocjA" name="LEFT_ANALOG_Y" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB9IV6EeWOiZuWluocjA" name="RIGHT_ANALOG_X" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB9YV6EeWOiZuWluocjA" name="RIGHT_ANALOG_Y" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB9oV6EeWOiZuWluocjA" name="DPAD_X" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB94V6EeWOiZuWluocjA" name="DPAD_Y" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB-IV6EeWOiZuWluocjA" name="COPY_DRIVE_USB_PORT" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB-YV6EeWOiZuWluocjA" name="PASTE_DRIVE_USB_PORT" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ifkB-oV6EeWOiZuWluocjA" name="OI" visibility="public">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB-4V6EeWOiZuWluocjA" name="copyDrivePad" type="_3ju1oIVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB_IV6EeWOiZuWluocjA" name="pasteDrivePad" type="_3ju1oIVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB_YV6EeWOiZuWluocjA" name="joyButtonA" type="_3jxR4YVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB_oV6EeWOiZuWluocjA" name="joyButtonY" type="_3jxR4YVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkB_4V6EeWOiZuWluocjA" name="joyButtonB" type="_3jxR4YVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCAIV6EeWOiZuWluocjA" name="joyButtonX" type="_3jxR4YVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCAYV6EeWOiZuWluocjA" name="joyBumper" type="_3jxR4YVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCAoV6EeWOiZuWluocjA" name="joyTrigger" type="_3jxR4YVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCA4V6EeWOiZuWluocjA" name="getCopyRightY" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCBIV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCBYV6EeWOiZuWluocjA" name="getPasteRightY" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCBoV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCB4V6EeWOiZuWluocjA" name="getCopyLeftY" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCCIV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCCYV6EeWOiZuWluocjA" name="getPasteLeftY" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCCoV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCC4V6EeWOiZuWluocjA" name="getCopyRightX" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCDIV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCDYV6EeWOiZuWluocjA" name="getPasteRightX" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCDoV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCD4V6EeWOiZuWluocjA" name="getCopyLeftX" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCEIV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCEYV6EeWOiZuWluocjA" name="getPasteLeftX" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCEoV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCE4V6EeWOiZuWluocjA" name="getCopyRightTrigger" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCFIV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCFYV6EeWOiZuWluocjA" name="getPasteRightTrigger" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCFoV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCF4V6EeWOiZuWluocjA" name="getCopyLeftTrigger" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCGIV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCGYV6EeWOiZuWluocjA" name="getPasteLeftTrigger" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCGoV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCG4V6EeWOiZuWluocjA" name="getCopyLeftBumper" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCHIV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCHYV6EeWOiZuWluocjA" name="getPasteLeftBumper" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCHoV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCH4V6EeWOiZuWluocjA" name="getCopyRightBumper" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCIIV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCIYV6EeWOiZuWluocjA" name="getPasteRightBumper" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCIoV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCI4V6EeWOiZuWluocjA" name="getCopyXButton" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCJIV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCJYV6EeWOiZuWluocjA" name="getPasteXButton" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCJoV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCJ4V6EeWOiZuWluocjA" name="getCopyAButton" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCKIV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCKYV6EeWOiZuWluocjA" name="getPasteAButton" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCKoV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCK4V6EeWOiZuWluocjA" name="getCopyYButton" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCLIV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCLYV6EeWOiZuWluocjA" name="getPasteYButton" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCLoV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCL4V6EeWOiZuWluocjA" name="getCopyBButton" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCMIV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCMYV6EeWOiZuWluocjA" name="getPasteBButton" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCMoV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCM4V6EeWOiZuWluocjA" name="getRightJoyStickPush" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCNIV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCNYV6EeWOiZuWluocjA" name="score" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCNoV6EeWOiZuWluocjA" name="reset" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCN4V6EeWOiZuWluocjA" name="elevatorUp" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCOIV6EeWOiZuWluocjA" name="elevatorDrop" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCOYV6EeWOiZuWluocjA" name="closeActuator" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCOoV6EeWOiZuWluocjA" name="openActuator" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCO4V6EeWOiZuWluocjA" name="spinCIMOutward" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCPIV6EeWOiZuWluocjA" name="spinCIMInward" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ifkCPYV6EeWOiZuWluocjA" name="Robot" visibility="public">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_ifkCPoV6EeWOiZuWluocjA">
+        <body>&#xD;
+ * The VM is configured to automatically run this class, and to call the&#xD;
+ * functions corresponding to each mode, as described in the IterativeRobot&#xD;
+ * documentation. If you change the name of this class or the package after&#xD;
+ * creating this project, you must also update the manifest file in the resource&#xD;
+ * directory.&#xD;
+ </body>
+      </ownedComment>
+      <generalization xmi:type="uml:Generalization" xmi:id="_ifkCP4V6EeWOiZuWluocjA" general="_3kFa8IVuEeWOiZuWluocjA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCQIV6EeWOiZuWluocjA" name="driveCopy" visibility="public" isStatic="true" type="_ifkCYYV6EeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCQYV6EeWOiZuWluocjA" name="elevatorCopy" visibility="public" isStatic="true" type="_ifkCc4V6EeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCQoV6EeWOiZuWluocjA" name="intake" visibility="public" isStatic="true" type="_ifkCn4V6EeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCQ4V6EeWOiZuWluocjA" name="constant" visibility="public" isStatic="true" type="_ifkCr4V6EeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCRIV6EeWOiZuWluocjA" name="oi" visibility="public" isStatic="true" type="_ifkB-oV6EeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCRYV6EeWOiZuWluocjA" name="usbCamera" visibility="public" isStatic="true" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCRoV6EeWOiZuWluocjA" name="autoChooser" visibility="public" type="_3kKTcYVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCR4V6EeWOiZuWluocjA" name="pref" type="_3kK6gIVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCSIV6EeWOiZuWluocjA" name="elevatorP" visibility="public" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCSYV6EeWOiZuWluocjA" name="elevatorI" visibility="public" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCSoV6EeWOiZuWluocjA" name="elevatorD" visibility="public" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCS4V6EeWOiZuWluocjA" name="elevatorDownP" visibility="public" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCTIV6EeWOiZuWluocjA" name="elevatorDownI" visibility="public" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCTYV6EeWOiZuWluocjA" name="elevatorDownD" visibility="public" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCToV6EeWOiZuWluocjA" name="autonomousCommand" type="_3kN90YVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCT4V6EeWOiZuWluocjA" name="c" type="_3kOk4IVuEeWOiZuWluocjA" isUnique="false"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCUIV6EeWOiZuWluocjA" name="robotInit" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkCUYV6EeWOiZuWluocjA">
+          <body>&#xD;
+     * This function is run when the robot is first started up and should be&#xD;
+     * used for any initialization code.&#xD;
+     </body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCUoV6EeWOiZuWluocjA" name="disabledPeriodic" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCU4V6EeWOiZuWluocjA" name="autonomousInit" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCVIV6EeWOiZuWluocjA" name="autonomousPeriodic" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkCVYV6EeWOiZuWluocjA">
+          <body>&#xD;
+     * This function is called periodically during autonomous&#xD;
+     </body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCVoV6EeWOiZuWluocjA" name="teleopInit" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCV4V6EeWOiZuWluocjA" name="disabledInit" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkCWIV6EeWOiZuWluocjA">
+          <body>&#xD;
+     * This function is called when the disabled button is hit.&#xD;
+     * You can use it to reset subsystems before shutting down.&#xD;
+     </body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCWYV6EeWOiZuWluocjA" name="teleopPeriodic" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkCWoV6EeWOiZuWluocjA">
+          <body>&#xD;
+     * This function is called periodically during operator control&#xD;
+     </body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCW4V6EeWOiZuWluocjA" name="testPeriodic" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkCXIV6EeWOiZuWluocjA">
+          <body>&#xD;
+     * This function is called periodically during test mode&#xD;
+     </body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCXYV6EeWOiZuWluocjA" name="resetAllEncoders" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkCXoV6EeWOiZuWluocjA">
+          <body>&#xD;
+     * This function is called to reset encoders before use&#xD;
+     </body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCX4V6EeWOiZuWluocjA" name="updateDashboard" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ifkCYIV6EeWOiZuWluocjA" name="subsystems">
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkCYYV6EeWOiZuWluocjA" name="DriveTrainCopy" visibility="public">
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkCYoV6EeWOiZuWluocjA" general="_3mo_sIVuEeWOiZuWluocjA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCY4V6EeWOiZuWluocjA" name="rightBack" type="_3mpmwYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCZIV6EeWOiZuWluocjA" name="rightFront" type="_3mpmwYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCZYV6EeWOiZuWluocjA" name="leftFront" type="_3mpmwYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCZoV6EeWOiZuWluocjA" name="leftBack" type="_3mpmwYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCZ4V6EeWOiZuWluocjA" name="rightEncoder" type="_3mrb8YVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCaIV6EeWOiZuWluocjA" name="leftEncoder" type="_3mrb8YVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCaYV6EeWOiZuWluocjA" name="initDefaultCommand" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCaoV6EeWOiZuWluocjA" name="runRightDrive" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCa4V6EeWOiZuWluocjA" name="value" type="_3jF8cYVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCbIV6EeWOiZuWluocjA" name="runLeftDrive" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCbYV6EeWOiZuWluocjA" name="value" type="_3jF8cYVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCboV6EeWOiZuWluocjA" name="getRightDriveEncoder" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCb4V6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCcIV6EeWOiZuWluocjA" name="getLeftDriveEncoder" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCcYV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCcoV6EeWOiZuWluocjA" name="resetEncoders" visibility="public"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkCc4V6EeWOiZuWluocjA" name="ElevatorCopy" visibility="public">
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkCdIV6EeWOiZuWluocjA" general="_3mo_sIVuEeWOiZuWluocjA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCdYV6EeWOiZuWluocjA" name="elevatorLeftMotor" type="_3mpmwYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCdoV6EeWOiZuWluocjA" name="elevatorRightMotor" type="_3mpmwYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCd4V6EeWOiZuWluocjA" name="slowMotor" type="_3mpmwYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCeIV6EeWOiZuWluocjA" name="rightBumper" type="_3m0l4YVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCeYV6EeWOiZuWluocjA" name="leftBumper" type="_3m0l4YVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCeoV6EeWOiZuWluocjA" name="elevatorBottomBumper" type="_3m0l4YVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCe4V6EeWOiZuWluocjA" name="elevatorTopBumper" type="_3m0l4YVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCfIV6EeWOiZuWluocjA" name="elevPID" visibility="public" type="_ifkqM4V6EeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCfYV6EeWOiZuWluocjA" name="elevatorEncoder" type="_3mrb8YVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCfoV6EeWOiZuWluocjA" name="isZeroed" visibility="public" type="_3jHxoIVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCf4V6EeWOiZuWluocjA" name="data" visibility="public" type="_ifkCxoV6EeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCgIV6EeWOiZuWluocjA" name="time" type="_3meAkIVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCgYV6EeWOiZuWluocjA" name="firstRun" visibility="public" type="_3jHxoIVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCgoV6EeWOiZuWluocjA" name="grabberPiston" type="_3m4QQYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCg4V6EeWOiZuWluocjA" name="clawPiston" type="_3m4QQYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkChIV6EeWOiZuWluocjA" name="initDefaultCommand" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkChYV6EeWOiZuWluocjA" name="openGrabberPiston" visibility="public"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkChoV6EeWOiZuWluocjA" name="closeGrabberPiston" visibility="public"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCh4V6EeWOiZuWluocjA" name="openClawPiston" visibility="public"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCiIV6EeWOiZuWluocjA" name="closeClawPiston" visibility="public"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCiYV6EeWOiZuWluocjA" name="runElevatorMotor" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCioV6EeWOiZuWluocjA" name="value" type="_3jF8cYVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCi4V6EeWOiZuWluocjA" name="runSlowMotor" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCjIV6EeWOiZuWluocjA" name="value" type="_3jF8cYVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCjYV6EeWOiZuWluocjA" name="elevatorSetpoint" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCjoV6EeWOiZuWluocjA" name="setpoint" type="_3jF8cYVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCj4V6EeWOiZuWluocjA" name="speed" type="_3jF8cYVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCkIV6EeWOiZuWluocjA" name="getElevatorEncoder" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCkYV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCkoV6EeWOiZuWluocjA" name="getElevatorEncoderRaw" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCk4V6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkClIV6EeWOiZuWluocjA" name="getElevatorEncoderRate" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkClYV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCloV6EeWOiZuWluocjA" name="resetEncoder" visibility="public"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCl4V6EeWOiZuWluocjA" name="getBottomBumper" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCmIV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCmYV6EeWOiZuWluocjA" name="getTopBumper" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCmoV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCm4V6EeWOiZuWluocjA" name="getRightBumper" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCnIV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCnYV6EeWOiZuWluocjA" name="getLeftBumper" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCnoV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkCn4V6EeWOiZuWluocjA" name="Intake" visibility="public">
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkCoIV6EeWOiZuWluocjA" general="_3mo_sIVuEeWOiZuWluocjA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCoYV6EeWOiZuWluocjA" name="leftPiston" visibility="private" type="_3m4QQYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCooV6EeWOiZuWluocjA" name="rightPiston" visibility="private" type="_3m4QQYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCo4V6EeWOiZuWluocjA" name="leftCIM" visibility="private" type="_3nFroYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCpIV6EeWOiZuWluocjA" name="rightCIM" visibility="private" type="_3nFroYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCpYV6EeWOiZuWluocjA" name="openActuator" visibility="public"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCpoV6EeWOiZuWluocjA" name="closeActuator" visibility="public"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCp4V6EeWOiZuWluocjA" name="spinCIMInward" visibility="public"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCqIV6EeWOiZuWluocjA" name="spinCIMOutward" visibility="public"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCqYV6EeWOiZuWluocjA" name="initDefaultCommand" visibility="protected"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkCqoV6EeWOiZuWluocjA" name="ExampleSubsystem" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkCq4V6EeWOiZuWluocjA">
+          <body>
+ *
+ </body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkCrIV6EeWOiZuWluocjA" general="_3mo_sIVuEeWOiZuWluocjA"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCrYV6EeWOiZuWluocjA" name="initDefaultCommand" visibility="public"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ifkCroV6EeWOiZuWluocjA" name="utilities">
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkCr4V6EeWOiZuWluocjA" name="Constants" visibility="public">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCsIV6EeWOiZuWluocjA" name="constants" visibility="public" isStatic="true" type="_3nMZUIVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCsYV6EeWOiZuWluocjA" name="usingFile" visibility="private" isStatic="true" type="_3jHxoIVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCsoV6EeWOiZuWluocjA" name="filePath" visibility="public" isStatic="true" type="_3lTi8oVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCs4V6EeWOiZuWluocjA" name="load" visibility="public"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCtIV6EeWOiZuWluocjA" name="getDefaults" visibility="private">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCtYV6EeWOiZuWluocjA" type="_3nMZUIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCtoV6EeWOiZuWluocjA" name="getString" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCt4V6EeWOiZuWluocjA" type="_3lTi8oVuEeWOiZuWluocjA" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCuIV6EeWOiZuWluocjA" name="constName" type="_3lTi8oVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCuYV6EeWOiZuWluocjA" name="def" type="_3lTi8oVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCuoV6EeWOiZuWluocjA" name="getDouble" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCu4V6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCvIV6EeWOiZuWluocjA" name="constName" type="_3lTi8oVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCvYV6EeWOiZuWluocjA" name="getInteger" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCvoV6EeWOiZuWluocjA" type="_3i2r4IVuEeWOiZuWluocjA" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCv4V6EeWOiZuWluocjA" name="constName" type="_3lTi8oVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCwIV6EeWOiZuWluocjA" name="getLong" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCwYV6EeWOiZuWluocjA" type="_3nR44YVuEeWOiZuWluocjA" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCwoV6EeWOiZuWluocjA" name="constName" type="_3lTi8oVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCw4V6EeWOiZuWluocjA" name="getBoolean" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCxIV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCxYV6EeWOiZuWluocjA" name="constName" type="_3lTi8oVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkCxoV6EeWOiZuWluocjA" name="DataOutput" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkCx4V6EeWOiZuWluocjA">
+          <body>&#xD;
+ * https://docs.oracle.com/javase/7/docs/api/java/io/DataOutputStream.html&#xD;
+ * @author Team 1241&#xD;
+ </body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCyIV6EeWOiZuWluocjA" name="counter" visibility="private" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkCyYV6EeWOiZuWluocjA" name="output" visibility="public" isStatic="true" type="_3nX_gYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCyoV6EeWOiZuWluocjA" name="writeStatement" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCy4V6EeWOiZuWluocjA" name="text" type="_3lTi8oVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCzIV6EeWOiZuWluocjA" name="val" type="_3lTi8oVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkCzYV6EeWOiZuWluocjA" name="writeData" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCzoV6EeWOiZuWluocjA" name="elapsedTime" type="_3jF8cYVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkCz4V6EeWOiZuWluocjA" name="leftEnc" type="_3jF8cYVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkC0IV6EeWOiZuWluocjA" name="rightEnc" type="_3jF8cYVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkC0YV6EeWOiZuWluocjA" name="gyro" type="_3jF8cYVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkC0oV6EeWOiZuWluocjA" name="writeString" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkC04V6EeWOiZuWluocjA" name="text" type="_3lTi8oVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkC1IV6EeWOiZuWluocjA" name="close" visibility="public"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkC1YV6EeWOiZuWluocjA" name="JoystickScaler" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkC1oV6EeWOiZuWluocjA">
+          <body>&#xD;
+ *&#xD;
+ * @author Sagar&#xD;
+ </body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkC14V6EeWOiZuWluocjA" name="joyScaled" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkC2IV6EeWOiZuWluocjA" name="scaleJoystick" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkC2YV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkC2oV6EeWOiZuWluocjA" name="joyRaw" type="_3jF8cYVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkC24V6EeWOiZuWluocjA" name="scalePower" type="_3i2r4IVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkC3IV6EeWOiZuWluocjA" name="LogicalNotToggleBoolean" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkC3YV6EeWOiZuWluocjA">
+          <body>&#xD;
+ *&#xD;
+ * @author Sagar&#xD;
+ </body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkC3oV6EeWOiZuWluocjA" name="state" type="_3jHxoIVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkC34V6EeWOiZuWluocjA" name="oldInput" type="_3jHxoIVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkC4IV6EeWOiZuWluocjA" name="set" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkC4YV6EeWOiZuWluocjA" name="input" type="_3jHxoIVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkC4oV6EeWOiZuWluocjA" name="get" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkC44V6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkC5IV6EeWOiZuWluocjA" name="MathLogic" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkC5YV6EeWOiZuWluocjA">
+          <body>&#xD;
+ *&#xD;
+ * @author Sagar&#xD;
+ </body>
+        </ownedComment>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkC5oV6EeWOiZuWluocjA" name="limitAbs" visibility="public" isStatic="true">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkC54V6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkC6IV6EeWOiZuWluocjA" name="in" type="_3jF8cYVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkC6YV6EeWOiZuWluocjA" name="limit" type="_3jF8cYVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkC6oV6EeWOiZuWluocjA" name="PWMLimit" visibility="public" isStatic="true">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkC64V6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkC7IV6EeWOiZuWluocjA" name="in" type="_3jF8cYVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkC7YV6EeWOiZuWluocjA" name="lim" type="_3jF8cYVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkC7oV6EeWOiZuWluocjA" name="deadband" visibility="public" isStatic="true">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkC74V6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkC8IV6EeWOiZuWluocjA" name="value" type="_3jF8cYVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkC8YV6EeWOiZuWluocjA" name="deadband" type="_3jF8cYVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkC8oV6EeWOiZuWluocjA" name="center" type="_3jF8cYVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkC84V6EeWOiZuWluocjA" name="degreesToRadians" visibility="public" isStatic="true">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkC9IV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkC9YV6EeWOiZuWluocjA" name="degrees" type="_3jF8cYVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkC9oV6EeWOiZuWluocjA" name="powerOf" visibility="public" isStatic="true">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkC94V6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkC-IV6EeWOiZuWluocjA" name="base" type="_3jF8cYVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkC-YV6EeWOiZuWluocjA" name="power" type="_3i2r4IVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkC-oV6EeWOiZuWluocjA" name="Matrix" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkC-4V6EeWOiZuWluocjA">
+          <body>&#xD;
+ *&#xD;
+ * @author Mahrus Kazi&#xD;
+ </body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkC_IV6EeWOiZuWluocjA" name="vector" visibility="public" type="_3n8nQIVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkC_YV6EeWOiZuWluocjA" name="answer" visibility="public" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkC_oV6EeWOiZuWluocjA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkC_4V6EeWOiZuWluocjA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkDAIV6EeWOiZuWluocjA" name="theMatrix" visibility="public" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkDAYV6EeWOiZuWluocjA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkDAoV6EeWOiZuWluocjA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkDA4V6EeWOiZuWluocjA" name="inverseMatrix" visibility="public" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkDBIV6EeWOiZuWluocjA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkDBYV6EeWOiZuWluocjA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkDBoV6EeWOiZuWluocjA" name="largestX" visibility="public" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkDB4V6EeWOiZuWluocjA" name="smallestX" visibility="public" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkDCIV6EeWOiZuWluocjA" name="name" visibility="public" type="_3lTi8oVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkDCYV6EeWOiZuWluocjA" name="getName" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDCoV6EeWOiZuWluocjA" type="_3lTi8oVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkDC4V6EeWOiZuWluocjA" name="changePoints" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDDIV6EeWOiZuWluocjA" name="point1" type="_3lTi8oVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDDYV6EeWOiZuWluocjA" name="point2" type="_3lTi8oVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDDoV6EeWOiZuWluocjA" name="point3" type="_3lTi8oVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDD4V6EeWOiZuWluocjA" name="point4" type="_3lTi8oVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDEIV6EeWOiZuWluocjA" name="point5" type="_3lTi8oVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDEYV6EeWOiZuWluocjA" name="point6" type="_3lTi8oVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkDEoV6EeWOiZuWluocjA" name="changePoints" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDE4V6EeWOiZuWluocjA" name="point1" type="_3lTi8oVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDFIV6EeWOiZuWluocjA" name="point2" type="_3lTi8oVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDFYV6EeWOiZuWluocjA" name="point3" type="_3lTi8oVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDFoV6EeWOiZuWluocjA" name="point4" type="_3lTi8oVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkDF4V6EeWOiZuWluocjA" name="putPoints" visibility="public"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkDGIV6EeWOiZuWluocjA" name="findFunction" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDGYV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkDGoV6EeWOiZuWluocjA"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkDG4V6EeWOiZuWluocjA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkDHIV6EeWOiZuWluocjA" name="findPoints" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDHYV6EeWOiZuWluocjA" type="_3n8nQIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkDHoV6EeWOiZuWluocjA" name="function" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDH4V6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDIIV6EeWOiZuWluocjA" name="x" type="_3jF8cYVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkDIYV6EeWOiZuWluocjA" name="compareX" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDIoV6EeWOiZuWluocjA" name="value" type="_3jF8cYVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkDI4V6EeWOiZuWluocjA" name="determinant" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDJIV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkDJYV6EeWOiZuWluocjA" name="cofactorMatrix" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDJoV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkDJ4V6EeWOiZuWluocjA"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkDKIV6EeWOiZuWluocjA" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDKYV6EeWOiZuWluocjA" name="matrix" type="_3jF8cYVuEeWOiZuWluocjA">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkDKoV6EeWOiZuWluocjA"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkDK4V6EeWOiZuWluocjA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkDLIV6EeWOiZuWluocjA" name="sixbysix" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDLYV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDLoV6EeWOiZuWluocjA" name="matrix" type="_3jF8cYVuEeWOiZuWluocjA">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkDL4V6EeWOiZuWluocjA"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkDMIV6EeWOiZuWluocjA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkDMYV6EeWOiZuWluocjA" name="fivebyfive" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDMoV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDM4V6EeWOiZuWluocjA" name="matrix" type="_3jF8cYVuEeWOiZuWluocjA">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkDNIV6EeWOiZuWluocjA"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkDNYV6EeWOiZuWluocjA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkDNoV6EeWOiZuWluocjA" name="fourbyfour" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDN4V6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDOIV6EeWOiZuWluocjA" name="matrix" type="_3jF8cYVuEeWOiZuWluocjA">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkDOYV6EeWOiZuWluocjA"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkDOoV6EeWOiZuWluocjA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkDO4V6EeWOiZuWluocjA" name="threebythree" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDPIV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDPYV6EeWOiZuWluocjA" name="matrix" type="_3jF8cYVuEeWOiZuWluocjA">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkDPoV6EeWOiZuWluocjA"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkDP4V6EeWOiZuWluocjA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkDQIV6EeWOiZuWluocjA" name="scalerDivide" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDQYV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkDQoV6EeWOiZuWluocjA"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkDQ4V6EeWOiZuWluocjA" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDRIV6EeWOiZuWluocjA" name="scaler" type="_3jF8cYVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDRYV6EeWOiZuWluocjA" name="matrix" type="_3jF8cYVuEeWOiZuWluocjA">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkDRoV6EeWOiZuWluocjA"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkDR4V6EeWOiZuWluocjA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkDSIV6EeWOiZuWluocjA" name="adjugate" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDSYV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkDSoV6EeWOiZuWluocjA"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkDS4V6EeWOiZuWluocjA" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDTIV6EeWOiZuWluocjA" name="matrix" type="_3jF8cYVuEeWOiZuWluocjA">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkDTYV6EeWOiZuWluocjA"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkDToV6EeWOiZuWluocjA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkDT4V6EeWOiZuWluocjA" name="transpose" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDUIV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkDUYV6EeWOiZuWluocjA"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkDUoV6EeWOiZuWluocjA" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDU4V6EeWOiZuWluocjA" name="matrix" type="_3jF8cYVuEeWOiZuWluocjA">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkDVIV6EeWOiZuWluocjA"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkDVYV6EeWOiZuWluocjA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkDVoV6EeWOiZuWluocjA" name="changeSigns" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDV4V6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkDWIV6EeWOiZuWluocjA"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkDWYV6EeWOiZuWluocjA" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDWoV6EeWOiZuWluocjA" name="matrix" type="_3jF8cYVuEeWOiZuWluocjA">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkDW4V6EeWOiZuWluocjA"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkDXIV6EeWOiZuWluocjA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkDXYV6EeWOiZuWluocjA" name="swap" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDXoV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkDX4V6EeWOiZuWluocjA"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkDYIV6EeWOiZuWluocjA" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDYYV6EeWOiZuWluocjA" name="matrix" type="_3jF8cYVuEeWOiZuWluocjA">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkDYoV6EeWOiZuWluocjA"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkDY4V6EeWOiZuWluocjA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkDZIV6EeWOiZuWluocjA" name="vectorMultiplication" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDZYV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkDZoV6EeWOiZuWluocjA"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkDZ4V6EeWOiZuWluocjA" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDaIV6EeWOiZuWluocjA" name="matrix" type="_3jF8cYVuEeWOiZuWluocjA">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkDaYV6EeWOiZuWluocjA"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkDaoV6EeWOiZuWluocjA" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkDa4V6EeWOiZuWluocjA" name="vector" type="_3jF8cYVuEeWOiZuWluocjA">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkDbIV6EeWOiZuWluocjA"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkDbYV6EeWOiZuWluocjA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkDboV6EeWOiZuWluocjA" name="PIDScale" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkDb4V6EeWOiZuWluocjA">
+          <body>&#xD;
+ *&#xD;
+ * @author Mahrus&#xD;
+ </body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkDcIV6EeWOiZuWluocjA" name="firstOutput" visibility="public" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkDcYV6EeWOiZuWluocjA" name="output" visibility="public" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkDcoV6EeWOiZuWluocjA" name="max" visibility="public" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkDc4V6EeWOiZuWluocjA" name="isEnabled" visibility="public" type="_3jHxoIVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkDdIV6EeWOiZuWluocjA" name="driveScale" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifko4IV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifko4YV6EeWOiZuWluocjA" name="drive" type="_ifko64V6EeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifko4oV6EeWOiZuWluocjA" name="setpoint" type="_3jF8cYVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifko44V6EeWOiZuWluocjA" name="current" type="_3jF8cYVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifko5IV6EeWOiZuWluocjA" name="gyroScale" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifko5YV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifko5oV6EeWOiZuWluocjA" name="gyro" type="_ifko64V6EeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifko54V6EeWOiZuWluocjA" name="setpoint" type="_3jF8cYVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifko6IV6EeWOiZuWluocjA" name="current" type="_3jF8cYVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifko6YV6EeWOiZuWluocjA" name="setMax" type="_3jF8cYVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifko6oV6EeWOiZuWluocjA" name="disable" visibility="public"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifko64V6EeWOiZuWluocjA" name="PIDController"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifko7IV6EeWOiZuWluocjA" name="Queue" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifko7YV6EeWOiZuWluocjA">
+          <body>&#xD;
+ *&#xD;
+ * @author Sagar&#xD;
+ </body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifko7oV6EeWOiZuWluocjA" general="_3n8nQIVuEeWOiZuWluocjA"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifko74V6EeWOiZuWluocjA" name="addToQueue" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifko8IV6EeWOiZuWluocjA" name="obj" type="_3osOIYVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifko8YV6EeWOiZuWluocjA" name="populateQueue" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifko8oV6EeWOiZuWluocjA" type="_3osOIYVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifko84V6EeWOiZuWluocjA" name="SendableChooser" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifko9IV6EeWOiZuWluocjA">
+          <body>
+ * The {@link SendableChooser} class is a useful tool for presenting a selection
+ * of options to the {@link SmartDashboard}.
+ *
+ * &lt;p>For instance, you may wish to be able to select between multiple
+ * autonomous modes. You can do this by putting every possible {@link Command}
+ * you want to run as an autonomous into a {@link SendableChooser} and then put
+ * it into the {@link SmartDashboard} to have a list of options appear on the
+ * laptop. Once autonomous starts, simply ask the {@link SendableChooser} what
+ * the selected value is.&lt;/p>
+ *
+ * @author Joe Grinstead
+ </body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifko9YV6EeWOiZuWluocjA" name="DEFAULT" visibility="private" isLeaf="true" isStatic="true" type="_3lTi8oVuEeWOiZuWluocjA" isUnique="false">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_ifko9oV6EeWOiZuWluocjA">
+            <body>
+     * The key for the default value
+     </body>
+          </ownedComment>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifko94V6EeWOiZuWluocjA" name="SELECTED" visibility="private" isLeaf="true" isStatic="true" type="_3lTi8oVuEeWOiZuWluocjA" isUnique="false">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_ifko-IV6EeWOiZuWluocjA">
+            <body>
+     * The key for the selected option
+     </body>
+          </ownedComment>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifko-YV6EeWOiZuWluocjA" name="OPTIONS" visibility="private" isLeaf="true" isStatic="true" type="_3lTi8oVuEeWOiZuWluocjA" isUnique="false">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_ifko-oV6EeWOiZuWluocjA">
+            <body>
+     * The key for the option array
+     </body>
+          </ownedComment>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifko-4V6EeWOiZuWluocjA" name="choices" visibility="private" type="_3o1_IIVuEeWOiZuWluocjA" isUnique="false">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_ifko_IV6EeWOiZuWluocjA">
+            <body>
+     * A table linking strings to the objects the represent
+     </body>
+          </ownedComment>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifko_YV6EeWOiZuWluocjA" name="values" visibility="private" type="_3n8nQIVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifko_oV6EeWOiZuWluocjA" name="defaultChoice" visibility="private" type="_3lTi8oVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifko_4V6EeWOiZuWluocjA" name="defaultValue" visibility="private" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpAIV6EeWOiZuWluocjA" name="table" visibility="private" type="_3o7esIVuEeWOiZuWluocjA" isUnique="false"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ifkpAYV6EeWOiZuWluocjA" name="SendableChooser implements Sendable" client="_ifko84V6EeWOiZuWluocjA _ifko84V6EeWOiZuWluocjA _ifko84V6EeWOiZuWluocjA" supplier="_3oyUwIVuEeWOiZuWluocjA" contract="_3oyUwIVuEeWOiZuWluocjA"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpAoV6EeWOiZuWluocjA" name="addInteger" visibility="public">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_ifkpA4V6EeWOiZuWluocjA">
+            <body>
+     * Adds the given integer to the list of options. On the
+     * {@link SmartDashboard} on the desktop, the integer will appear as the
+     * given name.
+     *
+     * @param name the name of the option
+     * @param integer the option
+     </body>
+          </ownedComment>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpBIV6EeWOiZuWluocjA" name="name" type="_3lTi8oVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpBYV6EeWOiZuWluocjA" name="integer" type="_3i2r4IVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpBoV6EeWOiZuWluocjA" name="addDefault" visibility="public">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_ifkpB4V6EeWOiZuWluocjA">
+            <body>
+     * Add the given integer to the list of options and marks it as the default.
+     * Functionally, this is very close to
+     * {@link SendableChooser#addObject(java.lang.String, java.lang.Object) addObject(...)}
+     * except that it will use this as the default option if none other is
+     * explicitly selected.
+     *
+     * @param name the name of the option
+     * @param integer the option
+     </body>
+          </ownedComment>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpCIV6EeWOiZuWluocjA" name="name" type="_3lTi8oVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpCYV6EeWOiZuWluocjA" name="integer" type="_3i2r4IVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpCoV6EeWOiZuWluocjA" name="getSelected" visibility="public">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_ifkpC4V6EeWOiZuWluocjA">
+            <body>
+     * Returns the selected option. If there is none selected, it will return
+     * the default. If there is none selected and no default, then it will
+     * return {@code null}.
+     *
+     * @return the option selected
+     </body>
+          </ownedComment>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpDIV6EeWOiZuWluocjA" type="_3i2r4IVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpDYV6EeWOiZuWluocjA" name="getSmartDashboardType" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpDoV6EeWOiZuWluocjA" type="_3lTi8oVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpD4V6EeWOiZuWluocjA" name="initTable" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpEIV6EeWOiZuWluocjA" name="table" type="_3o7esIVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpEYV6EeWOiZuWluocjA" name="getTable" visibility="public">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_ifkpEoV6EeWOiZuWluocjA">
+            <body>
+     * {@inheritDoc}
+     </body>
+          </ownedComment>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpE4V6EeWOiZuWluocjA" type="_3o7esIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkpFIV6EeWOiZuWluocjA" name="TheoryCurve" visibility="public">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpFYV6EeWOiZuWluocjA" name="vector" visibility="public" type="_3n8nQIVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpFoV6EeWOiZuWluocjA" name="xPoints" visibility="public" type="_3n8nQIVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpF4V6EeWOiZuWluocjA" name="yPoints" visibility="public" type="_3n8nQIVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpGIV6EeWOiZuWluocjA" name="hypotenuse" visibility="public" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkpGYV6EeWOiZuWluocjA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkpGoV6EeWOiZuWluocjA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpG4V6EeWOiZuWluocjA" name="xDelta" visibility="public" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkpHIV6EeWOiZuWluocjA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkpHYV6EeWOiZuWluocjA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpHoV6EeWOiZuWluocjA" name="yDelta" visibility="public" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkpH4V6EeWOiZuWluocjA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkpIIV6EeWOiZuWluocjA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpIYV6EeWOiZuWluocjA" name="angle" visibility="public" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkpIoV6EeWOiZuWluocjA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkpI4V6EeWOiZuWluocjA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpJIV6EeWOiZuWluocjA" name="xValues" visibility="public" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkpJYV6EeWOiZuWluocjA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkpJoV6EeWOiZuWluocjA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpJ4V6EeWOiZuWluocjA" name="yValues" visibility="public" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ifkpKIV6EeWOiZuWluocjA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ifkpKYV6EeWOiZuWluocjA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpKoV6EeWOiZuWluocjA" name="distance" visibility="public" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpK4V6EeWOiZuWluocjA" name="changePoints" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpLIV6EeWOiZuWluocjA" name="startPoint" type="_3lTi8oVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpLYV6EeWOiZuWluocjA" name="controlPoint1" type="_3lTi8oVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpLoV6EeWOiZuWluocjA" name="controlPoint2" type="_3lTi8oVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpL4V6EeWOiZuWluocjA" name="endPoint" type="_3lTi8oVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpMIV6EeWOiZuWluocjA" name="findPoints" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpMYV6EeWOiZuWluocjA" type="_3n8nQIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpMoV6EeWOiZuWluocjA" name="useFunctionX" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpM4V6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpNIV6EeWOiZuWluocjA" name="zeroX" type="_3jF8cYVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpNYV6EeWOiZuWluocjA" name="oneX" type="_3jF8cYVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpNoV6EeWOiZuWluocjA" name="twoX" type="_3jF8cYVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpN4V6EeWOiZuWluocjA" name="threeX" type="_3jF8cYVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpOIV6EeWOiZuWluocjA" name="time" type="_3jF8cYVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpOYV6EeWOiZuWluocjA" name="useFunctionY" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpOoV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpO4V6EeWOiZuWluocjA" name="zeroY" type="_3jF8cYVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpPIV6EeWOiZuWluocjA" name="oneY" type="_3jF8cYVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpPYV6EeWOiZuWluocjA" name="twoY" type="_3jF8cYVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpPoV6EeWOiZuWluocjA" name="threeY" type="_3jF8cYVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpP4V6EeWOiZuWluocjA" name="time" type="_3jF8cYVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpQIV6EeWOiZuWluocjA" name="putPoints" visibility="public"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpQYV6EeWOiZuWluocjA" name="calcPoints" visibility="public"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpQoV6EeWOiZuWluocjA" name="findDistance" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpQ4V6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpRIV6EeWOiZuWluocjA" name="findAngle" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpRYV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpRoV6EeWOiZuWluocjA" name="index" type="_3i2r4IVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpR4V6EeWOiZuWluocjA" name="findHypotenuse" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpSIV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpSYV6EeWOiZuWluocjA" name="index" type="_3i2r4IVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpSoV6EeWOiZuWluocjA" name="findIndex" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpS4V6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpTIV6EeWOiZuWluocjA" name="findXDelta" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpTYV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpToV6EeWOiZuWluocjA" name="x" type="_3i2r4IVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpT4V6EeWOiZuWluocjA" name="findYDelta" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpUIV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpUYV6EeWOiZuWluocjA" name="y" type="_3i2r4IVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkpUoV6EeWOiZuWluocjA" name="ToggleBoolean" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkpU4V6EeWOiZuWluocjA">
+          <body>&#xD;
+ *&#xD;
+ * @author Sagar&#xD;
+ </body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpVIV6EeWOiZuWluocjA" name="state" type="_3jHxoIVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpVYV6EeWOiZuWluocjA" name="oldInput" type="_3jHxoIVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpVoV6EeWOiZuWluocjA" name="set" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpV4V6EeWOiZuWluocjA" name="input" type="_3jHxoIVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpWIV6EeWOiZuWluocjA" name="get" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpWYV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkpWoV6EeWOiZuWluocjA" name="XORToggleBoolean" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkpW4V6EeWOiZuWluocjA">
+          <body>&#xD;
+ *&#xD;
+ * @author Mahrus&#xD;
+ </body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpXIV6EeWOiZuWluocjA" name="state" type="_3jHxoIVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpXYV6EeWOiZuWluocjA" name="set" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpXoV6EeWOiZuWluocjA" name="input" type="_3jHxoIVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpX4V6EeWOiZuWluocjA" name="get" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpYIV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ifkpYYV6EeWOiZuWluocjA" name="RobotMap" visibility="public">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_ifkpYoV6EeWOiZuWluocjA">
+        <body>
+ * The RobotMap is a mapping from the ports sensors and actuators are wired into
+ * to a variable name. This provides flexibility changing wiring, makes checking
+ * the wiring easier and significantly reduces the number of magic numbers
+ * floating around.
+ </body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ifkpY4V6EeWOiZuWluocjA" name="commands">
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkpZIV6EeWOiZuWluocjA" name="ActuateClaw" visibility="public">
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkpZYV6EeWOiZuWluocjA" general="_3kN90YVuEeWOiZuWluocjA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpZoV6EeWOiZuWluocjA" name="open" visibility="private" type="_3jHxoIVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpZ4V6EeWOiZuWluocjA" name="initialize" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpaIV6EeWOiZuWluocjA" name="execute" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpaYV6EeWOiZuWluocjA" name="isFinished" visibility="protected">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpaoV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpa4V6EeWOiZuWluocjA" name="end" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpbIV6EeWOiZuWluocjA" name="interrupted" visibility="protected"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkpbYV6EeWOiZuWluocjA" name="AutonBackCopy" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkpboV6EeWOiZuWluocjA">
+          <body>&#xD;
+ * @author James Taylor&#xD;
+ * auto class for 1285 2015&#xD;
+ </body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkpb4V6EeWOiZuWluocjA" general="_3kN90YVuEeWOiZuWluocjA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpcIV6EeWOiZuWluocjA" name="x" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpcYV6EeWOiZuWluocjA" name="y" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpcoV6EeWOiZuWluocjA" name="timeOut" visibility="private" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpc4V6EeWOiZuWluocjA" name="initialize" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpdIV6EeWOiZuWluocjA" name="execute" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpdYV6EeWOiZuWluocjA" name="isFinished" visibility="protected">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpdoV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpd4V6EeWOiZuWluocjA" name="end" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpeIV6EeWOiZuWluocjA" name="interrupted" visibility="protected"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkpeYV6EeWOiZuWluocjA" name="AutonForCopy" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkpeoV6EeWOiZuWluocjA">
+          <body>&#xD;
+ * @author James Taylor&#xD;
+ * auto class for 1285 2015&#xD;
+ </body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkpe4V6EeWOiZuWluocjA" general="_3kN90YVuEeWOiZuWluocjA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpfIV6EeWOiZuWluocjA" name="x" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpfYV6EeWOiZuWluocjA" name="y" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpfoV6EeWOiZuWluocjA" name="timeOut" visibility="private" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpf4V6EeWOiZuWluocjA" name="initialize" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpgIV6EeWOiZuWluocjA" name="execute" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpgYV6EeWOiZuWluocjA" name="isFinished" visibility="protected">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpgoV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpg4V6EeWOiZuWluocjA" name="end" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkphIV6EeWOiZuWluocjA" name="interrupted" visibility="protected"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkphYV6EeWOiZuWluocjA" name="AutonGrabberDownCopy" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkphoV6EeWOiZuWluocjA">
+          <body>&#xD;
+ * @author James Taylor&#xD;
+ * auto class for 1285 2015&#xD;
+ </body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkph4V6EeWOiZuWluocjA" general="_3kN90YVuEeWOiZuWluocjA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpiIV6EeWOiZuWluocjA" name="timeOut" visibility="private" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpiYV6EeWOiZuWluocjA" name="initialize" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpioV6EeWOiZuWluocjA" name="execute" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpi4V6EeWOiZuWluocjA" name="isFinished" visibility="protected">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpjIV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpjYV6EeWOiZuWluocjA" name="end" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpjoV6EeWOiZuWluocjA" name="interrupted" visibility="protected"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkpj4V6EeWOiZuWluocjA" name="AutonGrabberUpCopy" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkpkIV6EeWOiZuWluocjA">
+          <body>&#xD;
+ * @author James Taylor&#xD;
+ * auto class for 1285 2015&#xD;
+ </body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkpkYV6EeWOiZuWluocjA" general="_3kN90YVuEeWOiZuWluocjA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpkoV6EeWOiZuWluocjA" name="timeOut" visibility="private" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpk4V6EeWOiZuWluocjA" name="initialize" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkplIV6EeWOiZuWluocjA" name="execute" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkplYV6EeWOiZuWluocjA" name="isFinished" visibility="protected">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkploV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpl4V6EeWOiZuWluocjA" name="end" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpmIV6EeWOiZuWluocjA" name="interrupted" visibility="protected"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkpmYV6EeWOiZuWluocjA" name="AutonPause" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkpmoV6EeWOiZuWluocjA">
+          <body>&#xD;
+ * @author James Taylor&#xD;
+ * auto class for 1285 2015&#xD;
+ </body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkpm4V6EeWOiZuWluocjA" general="_3kN90YVuEeWOiZuWluocjA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpnIV6EeWOiZuWluocjA" name="timeOut" visibility="private" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpnYV6EeWOiZuWluocjA" name="initialize" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpnoV6EeWOiZuWluocjA" name="execute" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpn4V6EeWOiZuWluocjA" name="isFinished" visibility="protected">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpoIV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpoYV6EeWOiZuWluocjA" name="end" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpooV6EeWOiZuWluocjA" name="interrupted" visibility="protected"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkpo4V6EeWOiZuWluocjA" name="CloseActuator" visibility="public">
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkppIV6EeWOiZuWluocjA" general="_3kN90YVuEeWOiZuWluocjA"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkppYV6EeWOiZuWluocjA" name="initialize" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkppoV6EeWOiZuWluocjA" name="execute" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpp4V6EeWOiZuWluocjA" name="isFinished" visibility="protected">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpqIV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpqYV6EeWOiZuWluocjA" name="end" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpqoV6EeWOiZuWluocjA" name="interrupted" visibility="protected"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkpq4V6EeWOiZuWluocjA" name="ElevatorUpCommand" visibility="public">
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkprIV6EeWOiZuWluocjA" general="_3lBPEYVuEeWOiZuWluocjA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkprYV6EeWOiZuWluocjA" name="ManualElevator" visibility="public">
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkproV6EeWOiZuWluocjA" general="_3kN90YVuEeWOiZuWluocjA"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpr4V6EeWOiZuWluocjA" name="initialize" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpsIV6EeWOiZuWluocjA" name="execute" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpsYV6EeWOiZuWluocjA" name="isFinished" visibility="protected">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpsoV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkps4V6EeWOiZuWluocjA" name="end" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkptIV6EeWOiZuWluocjA" name="interrupted" visibility="protected"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkptYV6EeWOiZuWluocjA" name="OneBinLeft" visibility="public">
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkptoV6EeWOiZuWluocjA" general="_3lBPEYVuEeWOiZuWluocjA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkpt4V6EeWOiZuWluocjA" name="OpenActuator" visibility="public">
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkpuIV6EeWOiZuWluocjA" general="_3kN90YVuEeWOiZuWluocjA"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpuYV6EeWOiZuWluocjA" name="initialize" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpuoV6EeWOiZuWluocjA" name="execute" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpu4V6EeWOiZuWluocjA" name="isFinished" visibility="protected">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpvIV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpvYV6EeWOiZuWluocjA" name="end" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpvoV6EeWOiZuWluocjA" name="interrupted" visibility="protected"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkpv4V6EeWOiZuWluocjA" name="RunElevator" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkpwIV6EeWOiZuWluocjA">
+          <body>&#xD;
+ * @author James Taylor&#xD;
+ * auto class for 1285 2015&#xD;
+ </body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkpwYV6EeWOiZuWluocjA" general="_3kN90YVuEeWOiZuWluocjA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpwoV6EeWOiZuWluocjA" name="setpoint" visibility="private" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpw4V6EeWOiZuWluocjA" name="speed" visibility="private" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpxIV6EeWOiZuWluocjA" name="direction" visibility="private" type="_3lTi8oVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpxYV6EeWOiZuWluocjA" name="timeOut" visibility="private" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkpxoV6EeWOiZuWluocjA" name="isTimeoutSet" type="_3jHxoIVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpx4V6EeWOiZuWluocjA" name="initialize" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpyIV6EeWOiZuWluocjA" name="execute" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpyYV6EeWOiZuWluocjA" name="isFinished" visibility="protected">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkpyoV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpy4V6EeWOiZuWluocjA" name="end" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpzIV6EeWOiZuWluocjA" name="interrupted" visibility="protected"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkpzYV6EeWOiZuWluocjA" name="SpinCIMInward" visibility="public">
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkpzoV6EeWOiZuWluocjA" general="_3kN90YVuEeWOiZuWluocjA"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkpz4V6EeWOiZuWluocjA" name="initialize" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkp0IV6EeWOiZuWluocjA" name="execute" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkp0YV6EeWOiZuWluocjA" name="isFinished" visibility="protected">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkp0oV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkp04V6EeWOiZuWluocjA" name="end" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkp1IV6EeWOiZuWluocjA" name="interrupted" visibility="protected"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkp1YV6EeWOiZuWluocjA" name="SpinCIMOutward" visibility="public">
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkp1oV6EeWOiZuWluocjA" general="_3kN90YVuEeWOiZuWluocjA"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkp14V6EeWOiZuWluocjA" name="initialize" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkp2IV6EeWOiZuWluocjA" name="execute" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkp2YV6EeWOiZuWluocjA" name="isFinished" visibility="protected">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkp2oV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkp24V6EeWOiZuWluocjA" name="end" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkp3IV6EeWOiZuWluocjA" name="interrupted" visibility="protected"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkp3YV6EeWOiZuWluocjA" name="StackCommand" visibility="public">
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkp3oV6EeWOiZuWluocjA" general="_3lBPEYVuEeWOiZuWluocjA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkp34V6EeWOiZuWluocjA" name="TankDriveCopy" visibility="public">
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkp4IV6EeWOiZuWluocjA" general="_3kN90YVuEeWOiZuWluocjA"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkp4YV6EeWOiZuWluocjA" name="initialize" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkp4oV6EeWOiZuWluocjA" name="execute" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkp44V6EeWOiZuWluocjA" name="isFinished" visibility="protected">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkp5IV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkp5YV6EeWOiZuWluocjA" name="end" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkp5oV6EeWOiZuWluocjA" name="interrupted" visibility="protected"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkp54V6EeWOiZuWluocjA" name="ThreeTote" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkp6IV6EeWOiZuWluocjA">
+          <body>&#xD;
+ * @author James Taylor&#xD;
+ * auto class for 1285 2015&#xD;
+ </body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkp6YV6EeWOiZuWluocjA" general="_3lBPEYVuEeWOiZuWluocjA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkp6oV6EeWOiZuWluocjA" name="ToggleClaw" visibility="public">
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkp64V6EeWOiZuWluocjA" general="_3kN90YVuEeWOiZuWluocjA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkp7IV6EeWOiZuWluocjA" name="toggle" type="_3jHxoIVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkp7YV6EeWOiZuWluocjA" name="initialize" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkp7oV6EeWOiZuWluocjA" name="execute" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkp74V6EeWOiZuWluocjA" name="isFinished" visibility="protected">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkp8IV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkp8YV6EeWOiZuWluocjA" name="end" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkp8oV6EeWOiZuWluocjA" name="interrupted" visibility="protected"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkp84V6EeWOiZuWluocjA" name="TurnLeft" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkp9IV6EeWOiZuWluocjA">
+          <body>&#xD;
+ * @author James Taylor&#xD;
+ * auto class for 1285 2015&#xD;
+ </body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkp9YV6EeWOiZuWluocjA" general="_3kN90YVuEeWOiZuWluocjA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkp9oV6EeWOiZuWluocjA" name="timeOut" visibility="private" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkp94V6EeWOiZuWluocjA" name="distance" visibility="private" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkp-IV6EeWOiZuWluocjA" name="initialize" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkp-YV6EeWOiZuWluocjA" name="execute" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkp-oV6EeWOiZuWluocjA" name="isFinished" visibility="protected">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkp-4V6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkp_IV6EeWOiZuWluocjA" name="end" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkp_YV6EeWOiZuWluocjA" name="interrupted" visibility="protected"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkp_oV6EeWOiZuWluocjA" name="TurnRight" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkp_4V6EeWOiZuWluocjA">
+          <body>&#xD;
+ * @author James Taylor&#xD;
+ * auto class for 1285 2015&#xD;
+ </body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkqAIV6EeWOiZuWluocjA" general="_3kN90YVuEeWOiZuWluocjA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkqAYV6EeWOiZuWluocjA" name="timeOut" visibility="private" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkqAoV6EeWOiZuWluocjA" name="distance" visibility="private" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqA4V6EeWOiZuWluocjA" name="initialize" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqBIV6EeWOiZuWluocjA" name="execute" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqBYV6EeWOiZuWluocjA" name="isFinished" visibility="protected">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkqBoV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqB4V6EeWOiZuWluocjA" name="end" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqCIV6EeWOiZuWluocjA" name="interrupted" visibility="protected"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkqCYV6EeWOiZuWluocjA" name="ZeroElevator" visibility="public">
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkqCoV6EeWOiZuWluocjA" general="_3kN90YVuEeWOiZuWluocjA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkqC4V6EeWOiZuWluocjA" name="timeout" visibility="private" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqDIV6EeWOiZuWluocjA" name="initialize" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqDYV6EeWOiZuWluocjA" name="execute" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqDoV6EeWOiZuWluocjA" name="isFinished" visibility="protected">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkqD4V6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqEIV6EeWOiZuWluocjA" name="end" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqEYV6EeWOiZuWluocjA" name="interrupted" visibility="protected"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkqEoV6EeWOiZuWluocjA" name="driveForward" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkqE4V6EeWOiZuWluocjA">
+          <body>&#xD;
+ * @author James Taylor&#xD;
+ * auto class for 1285 2015&#xD;
+ </body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkqFIV6EeWOiZuWluocjA" general="_3lBPEYVuEeWOiZuWluocjA"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqFYV6EeWOiZuWluocjA" name="fullAuton" visibility="protected"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkqFoV6EeWOiZuWluocjA" name="nineTurn" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkqF4V6EeWOiZuWluocjA">
+          <body>&#xD;
+ * @author James Taylor&#xD;
+ * auto class for 1285 2015&#xD;
+ </body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkqGIV6EeWOiZuWluocjA" general="_3kN90YVuEeWOiZuWluocjA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkqGYV6EeWOiZuWluocjA" name="timeOut" visibility="private" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkqGoV6EeWOiZuWluocjA" name="side" visibility="private" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkqG4V6EeWOiZuWluocjA" name="distance" visibility="private" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqHIV6EeWOiZuWluocjA" name="initialize" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqHYV6EeWOiZuWluocjA" name="execute" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqHoV6EeWOiZuWluocjA" name="isFinished" visibility="protected">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkqH4V6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqIIV6EeWOiZuWluocjA" name="end" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqIYV6EeWOiZuWluocjA" name="interrupted" visibility="protected"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkqIoV6EeWOiZuWluocjA" name="noAuto" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkqI4V6EeWOiZuWluocjA">
+          <body>&#xD;
+ * @author James Taylor&#xD;
+ * auto class for 1285 2015&#xD;
+ </body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkqJIV6EeWOiZuWluocjA" general="_3kN90YVuEeWOiZuWluocjA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkqJYV6EeWOiZuWluocjA" name="timeOut" visibility="private" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqJoV6EeWOiZuWluocjA" name="initialize" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqJ4V6EeWOiZuWluocjA" name="execute" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqKIV6EeWOiZuWluocjA" name="isFinished" visibility="protected">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkqKYV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqKoV6EeWOiZuWluocjA" name="end" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqK4V6EeWOiZuWluocjA" name="interrupted" visibility="protected"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkqLIV6EeWOiZuWluocjA" name="oneBinRight" visibility="public">
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkqLYV6EeWOiZuWluocjA" general="_3lBPEYVuEeWOiZuWluocjA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkqLoV6EeWOiZuWluocjA" name="twoBin" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkqL4V6EeWOiZuWluocjA">
+          <body>&#xD;
+ * @author James Taylor&#xD;
+ * auto class for 1285 2015&#xD;
+ </body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_ifkqMIV6EeWOiZuWluocjA" general="_3lBPEYVuEeWOiZuWluocjA"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqMYV6EeWOiZuWluocjA" name="copyAuton" visibility="protected"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ifkqMoV6EeWOiZuWluocjA" name="pid">
+      <packagedElement xmi:type="uml:Class" xmi:id="_ifkqM4V6EeWOiZuWluocjA" name="PIDController" visibility="public">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifkqNIV6EeWOiZuWluocjA">
+          <body>&#xD;
+ *&#xD;
+ * @author Team 1241&#xD;
+ * Simple PID Controller that assumes regular loop intervals &#xD;
+ </body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkqNYV6EeWOiZuWluocjA" name="pGain" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkqNoV6EeWOiZuWluocjA" name="iGain" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkqN4V6EeWOiZuWluocjA" name="dGain" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkqOIV6EeWOiZuWluocjA" name="pOut" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkqOYV6EeWOiZuWluocjA" name="iOut" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkqOoV6EeWOiZuWluocjA" name="dOut" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkqO4V6EeWOiZuWluocjA" name="error" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkqPIV6EeWOiZuWluocjA" name="output" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkqPYV6EeWOiZuWluocjA" name="integral" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkqPoV6EeWOiZuWluocjA" name="lastError" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkqP4V6EeWOiZuWluocjA" name="derivative" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkqQIV6EeWOiZuWluocjA" name="prevIntegral" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkqQYV6EeWOiZuWluocjA" name="deltaT" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkqQoV6EeWOiZuWluocjA" name="timer" type="_3meAkIVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkqQ4V6EeWOiZuWluocjA" name="firstRun" type="_3jHxoIVuEeWOiZuWluocjA" isUnique="false"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqRIV6EeWOiZuWluocjA" name="resetIntegral" visibility="public"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqRYV6EeWOiZuWluocjA" name="resetDerivative" visibility="public"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqRoV6EeWOiZuWluocjA" name="resetPID" visibility="public"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqR4V6EeWOiZuWluocjA" name="changePIDGains" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkqSIV6EeWOiZuWluocjA" name="kP" type="_3jF8cYVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkqSYV6EeWOiZuWluocjA" name="kI" type="_3jF8cYVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkqSoV6EeWOiZuWluocjA" name="kD" type="_3jF8cYVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqS4V6EeWOiZuWluocjA" name="resetTimer" visibility="public"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqTIV6EeWOiZuWluocjA" name="stopTimer" visibility="public"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqTYV6EeWOiZuWluocjA" name="getTimer" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkqToV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqT4V6EeWOiZuWluocjA" name="dOut" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkqUIV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqUYV6EeWOiZuWluocjA" name="pOut" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkqUoV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_ifkqU4V6EeWOiZuWluocjA" name="calcPID" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkqVIV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkqVYV6EeWOiZuWluocjA" name="setPoint" type="_3jF8cYVuEeWOiZuWluocjA"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ifkqVoV6EeWOiZuWluocjA" name="currentValue" type="_3jF8cYVuEeWOiZuWluocjA"/>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_laStkIV6EeWOiZuWluocjA" name="ElectricalConstants" visibility="public">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_laStkYV6EeWOiZuWluocjA">
+      <body>&#xD;
+ *&#xD;
+ * @author Mahrus&#xD;
+ </body>
+    </ownedComment>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStkoV6EeWOiZuWluocjA" name="RIGHT_COPY_DRIVE_FRONT" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStk4V6EeWOiZuWluocjA" name="RIGHT_COPY_DRIVE_BACK" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStlIV6EeWOiZuWluocjA" name="LEFT_COPY_DRIVE_FRONT" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStlYV6EeWOiZuWluocjA" name="LEFT_COPY_DRIVE_BACK" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStloV6EeWOiZuWluocjA" name="COPY_RIGHT_ELEVATOR_MOTOR" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStl4V6EeWOiZuWluocjA" name="COPY_LEFT_ELEVATOR_MOTOR" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStmIV6EeWOiZuWluocjA" name="COPY_CONTAINER_MOTOR" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStmYV6EeWOiZuWluocjA" name="LEFT_INTAKE_MOTOR" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStmoV6EeWOiZuWluocjA" name="RIGHT_INTAKE_MOTOR" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStm4V6EeWOiZuWluocjA" name="COPY_POT" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStnIV6EeWOiZuWluocjA" name="COPY_RIGHT_ENCODER_A" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStnYV6EeWOiZuWluocjA" name="COPY_RIGHT_ENCODER_B" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStnoV6EeWOiZuWluocjA" name="COPY_LEFT_ENCODER_A" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStn4V6EeWOiZuWluocjA" name="COPY_LEFT_ENCODER_B" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStoIV6EeWOiZuWluocjA" name="COPY_ELEVATOR_ENCODER_A" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStoYV6EeWOiZuWluocjA" name="COPY_ELEVATOR_ENCODER_B" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStooV6EeWOiZuWluocjA" name="GRABBER_SOLENOID_A" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laSto4V6EeWOiZuWluocjA" name="GRABBER_SOLENOID_B" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStpIV6EeWOiZuWluocjA" name="CLAW_SOLENOID_A" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStpYV6EeWOiZuWluocjA" name="CLAW_SOLENOID_B" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStpoV6EeWOiZuWluocjA" name="PCM" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStp4V6EeWOiZuWluocjA" name="LEFT_INTAKE_PISTON_FORWARD" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStqIV6EeWOiZuWluocjA" name="LEFT_INTAKE_PISTON_REVERSE" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStqYV6EeWOiZuWluocjA" name="RIGHT_INTAKE_PISTON_FORWARD" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStqoV6EeWOiZuWluocjA" name="RIGHT_INTAKE_PISTON_REVERSE" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStq4V6EeWOiZuWluocjA" name="COPY_TOOL_RIGHT_BUMPER" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStrIV6EeWOiZuWluocjA" name="COPY_TOOL_LEFT_BUMPER" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStrYV6EeWOiZuWluocjA" name="COPY_ELEVATOR_BOTTOM_BUMPER" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStroV6EeWOiZuWluocjA" name="COPY_ELEVATOR_TOP_BUMPER" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStr4V6EeWOiZuWluocjA" name="driveWheelRadius" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStsIV6EeWOiZuWluocjA" name="pulsePerRotation" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStsYV6EeWOiZuWluocjA" name="gearRatio" visibility="public" isLeaf="true" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStsoV6EeWOiZuWluocjA" name="driveEncoderPulsePerRot" visibility="public" isLeaf="true" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laSts4V6EeWOiZuWluocjA" name="driveEncoderDistPerTick" visibility="public" isLeaf="true" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laSttIV6EeWOiZuWluocjA" name="rightDriveTrainEncoderReverse" visibility="public" isLeaf="true" isStatic="true" type="_3jHxoIVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laSttYV6EeWOiZuWluocjA" name="leftDriveTrainEncoderReverse" visibility="public" isLeaf="true" isStatic="true" type="_3jHxoIVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laSttoV6EeWOiZuWluocjA" name="elevatorPullyRadius" visibility="public" isLeaf="true" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStt4V6EeWOiZuWluocjA" name="elevPulsePerRotation" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStuIV6EeWOiZuWluocjA" name="elevGearRatio" visibility="public" isLeaf="true" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStuYV6EeWOiZuWluocjA" name="elevEncoderPulsePerRot" visibility="public" isLeaf="true" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStuoV6EeWOiZuWluocjA" name="elevEncoderDistPerTick" visibility="public" isLeaf="true" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStu4V6EeWOiZuWluocjA" name="copyElevatorEncoderReverse" visibility="public" isLeaf="true" isStatic="true" type="_3jHxoIVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laStvIV6EeWOiZuWluocjA" name="pasteElevatorEncoderReverse" visibility="public" isLeaf="true" isStatic="true" type="_3jHxoIVuEeWOiZuWluocjA" isUnique="false"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_laT7sIV6EeWOiZuWluocjA" name="OI" visibility="public">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laT7sYV6EeWOiZuWluocjA" name="copyDrivePad" type="_3ju1oIVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laT7soV6EeWOiZuWluocjA" name="pasteDrivePad" type="_3ju1oIVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laT7s4V6EeWOiZuWluocjA" name="joyButtonA" type="_3jxR4YVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laT7tIV6EeWOiZuWluocjA" name="joyButtonY" type="_3jxR4YVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laT7tYV6EeWOiZuWluocjA" name="joyButtonB" type="_3jxR4YVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laT7toV6EeWOiZuWluocjA" name="joyButtonX" type="_3jxR4YVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laT7t4V6EeWOiZuWluocjA" name="joyBumper" type="_3jxR4YVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laT7uIV6EeWOiZuWluocjA" name="joyTrigger" type="_3jxR4YVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT7uYV6EeWOiZuWluocjA" name="getCopyRightY" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_laT7uoV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT7u4V6EeWOiZuWluocjA" name="getPasteRightY" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_laT7vIV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT7vYV6EeWOiZuWluocjA" name="getCopyLeftY" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_laT7voV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT7v4V6EeWOiZuWluocjA" name="getPasteLeftY" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_laT7wIV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT7wYV6EeWOiZuWluocjA" name="getCopyRightX" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_laT7woV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT7w4V6EeWOiZuWluocjA" name="getPasteRightX" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_laT7xIV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT7xYV6EeWOiZuWluocjA" name="getCopyLeftX" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_laT7xoV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT7x4V6EeWOiZuWluocjA" name="getPasteLeftX" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_laT7yIV6EeWOiZuWluocjA" type="_3jF8cYVuEeWOiZuWluocjA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT7yYV6EeWOiZuWluocjA" name="getCopyRightTrigger" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_laT7yoV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT7y4V6EeWOiZuWluocjA" name="getPasteRightTrigger" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_laT7zIV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT7zYV6EeWOiZuWluocjA" name="getCopyLeftTrigger" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_laT7zoV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT7z4V6EeWOiZuWluocjA" name="getPasteLeftTrigger" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_laT70IV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT70YV6EeWOiZuWluocjA" name="getCopyLeftBumper" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_laT70oV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT704V6EeWOiZuWluocjA" name="getPasteLeftBumper" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_laT71IV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT71YV6EeWOiZuWluocjA" name="getCopyRightBumper" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_laT71oV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT714V6EeWOiZuWluocjA" name="getPasteRightBumper" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_laT72IV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT72YV6EeWOiZuWluocjA" name="getCopyXButton" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_laT72oV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT724V6EeWOiZuWluocjA" name="getPasteXButton" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_laT73IV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT73YV6EeWOiZuWluocjA" name="getCopyAButton" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_laT73oV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT734V6EeWOiZuWluocjA" name="getPasteAButton" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_laT74IV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT74YV6EeWOiZuWluocjA" name="getCopyYButton" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_laT74oV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT744V6EeWOiZuWluocjA" name="getPasteYButton" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_laT75IV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT75YV6EeWOiZuWluocjA" name="getCopyBButton" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_laT75oV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT754V6EeWOiZuWluocjA" name="getPasteBButton" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_laT76IV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT76YV6EeWOiZuWluocjA" name="getRightJoyStickPush" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_laT76oV6EeWOiZuWluocjA" type="_3jHxoIVuEeWOiZuWluocjA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT764V6EeWOiZuWluocjA" name="score" visibility="public"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT77IV6EeWOiZuWluocjA" name="reset" visibility="public"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT77YV6EeWOiZuWluocjA" name="elevatorUp" visibility="public"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT77oV6EeWOiZuWluocjA" name="elevatorDrop" visibility="public"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT774V6EeWOiZuWluocjA" name="closeActuator" visibility="public"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT78IV6EeWOiZuWluocjA" name="openActuator" visibility="public"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT78YV6EeWOiZuWluocjA" name="spinCIMOutward" visibility="public"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laT78oV6EeWOiZuWluocjA" name="spinCIMInward" visibility="public"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_laVJ0IV6EeWOiZuWluocjA" name="RobotMap" visibility="public">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_laVJ0YV6EeWOiZuWluocjA">
+      <body>
+ * The RobotMap is a mapping from the ports sensors and actuators are wired into
+ * to a variable name. This provides flexibility changing wiring, makes checking
+ * the wiring easier and significantly reduces the number of magic numbers
+ * floating around.
+ </body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_laVJ0oV6EeWOiZuWluocjA" name="Robot" visibility="public">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_laVJ04V6EeWOiZuWluocjA">
+      <body>&#xD;
+ * The VM is configured to automatically run this class, and to call the&#xD;
+ * functions corresponding to each mode, as described in the IterativeRobot&#xD;
+ * documentation. If you change the name of this class or the package after&#xD;
+ * creating this project, you must also update the manifest file in the resource&#xD;
+ * directory.&#xD;
+ </body>
+    </ownedComment>
+    <generalization xmi:type="uml:Generalization" xmi:id="_laVJ1IV6EeWOiZuWluocjA" general="_3kFa8IVuEeWOiZuWluocjA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVJ1YV6EeWOiZuWluocjA" name="driveCopy" visibility="public" isStatic="true" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVJ1oV6EeWOiZuWluocjA" name="elevatorCopy" visibility="public" isStatic="true" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVJ14V6EeWOiZuWluocjA" name="intake" visibility="public" isStatic="true" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVJ2IV6EeWOiZuWluocjA" name="constant" visibility="public" isStatic="true" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVJ2YV6EeWOiZuWluocjA" name="oi" visibility="public" isStatic="true" type="_laT7sIV6EeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVJ2oV6EeWOiZuWluocjA" name="usbCamera" visibility="public" isStatic="true" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVJ24V6EeWOiZuWluocjA" name="autoChooser" visibility="public" type="_3kKTcYVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVJ3IV6EeWOiZuWluocjA" name="pref" type="_3kK6gIVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVJ3YV6EeWOiZuWluocjA" name="elevatorP" visibility="public" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVJ3oV6EeWOiZuWluocjA" name="elevatorI" visibility="public" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVJ34V6EeWOiZuWluocjA" name="elevatorD" visibility="public" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVJ4IV6EeWOiZuWluocjA" name="elevatorDownP" visibility="public" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVJ4YV6EeWOiZuWluocjA" name="elevatorDownI" visibility="public" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVJ4oV6EeWOiZuWluocjA" name="elevatorDownD" visibility="public" isStatic="true" type="_3jF8cYVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVJ44V6EeWOiZuWluocjA" name="autonomousCommand" type="_3kN90YVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVJ5IV6EeWOiZuWluocjA" name="c" type="_3kOk4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laVJ5YV6EeWOiZuWluocjA" name="robotInit" visibility="public">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_laVJ5oV6EeWOiZuWluocjA">
+        <body>&#xD;
+     * This function is run when the robot is first started up and should be&#xD;
+     * used for any initialization code.&#xD;
+     </body>
+      </ownedComment>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laVJ54V6EeWOiZuWluocjA" name="disabledPeriodic" visibility="public"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laVJ6IV6EeWOiZuWluocjA" name="autonomousInit" visibility="public"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laVJ6YV6EeWOiZuWluocjA" name="autonomousPeriodic" visibility="public">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_laVJ6oV6EeWOiZuWluocjA">
+        <body>&#xD;
+     * This function is called periodically during autonomous&#xD;
+     </body>
+      </ownedComment>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laVJ64V6EeWOiZuWluocjA" name="teleopInit" visibility="public"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laVJ7IV6EeWOiZuWluocjA" name="disabledInit" visibility="public">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_laVJ7YV6EeWOiZuWluocjA">
+        <body>&#xD;
+     * This function is called when the disabled button is hit.&#xD;
+     * You can use it to reset subsystems before shutting down.&#xD;
+     </body>
+      </ownedComment>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laVJ7oV6EeWOiZuWluocjA" name="teleopPeriodic" visibility="public">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_laVJ74V6EeWOiZuWluocjA">
+        <body>&#xD;
+     * This function is called periodically during operator control&#xD;
+     </body>
+      </ownedComment>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laVJ8IV6EeWOiZuWluocjA" name="testPeriodic" visibility="public">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_laVJ8YV6EeWOiZuWluocjA">
+        <body>&#xD;
+     * This function is called periodically during test mode&#xD;
+     </body>
+      </ownedComment>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laVJ8oV6EeWOiZuWluocjA" name="resetAllEncoders" visibility="public">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_laVJ84V6EeWOiZuWluocjA">
+        <body>&#xD;
+     * This function is called to reset encoders before use&#xD;
+     </body>
+      </ownedComment>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_laVJ9IV6EeWOiZuWluocjA" name="updateDashboard" visibility="public"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_laVw4IV6EeWOiZuWluocjA" name="GamepadConstants" visibility="public">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_laVw4YV6EeWOiZuWluocjA">
+      <body>&#xD;
+ *&#xD;
+ * @author Sagar&#xD;
+ </body>
+    </ownedComment>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVw4oV6EeWOiZuWluocjA" name="X_BUTTON" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_laVw44V6EeWOiZuWluocjA">
+        <body>****************************Joystick Mapping*******************************</body>
+      </ownedComment>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVw5IV6EeWOiZuWluocjA" name="A_BUTTON" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVw5YV6EeWOiZuWluocjA" name="B_BUTTON" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVw5oV6EeWOiZuWluocjA" name="Y_BUTTON" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVw54V6EeWOiZuWluocjA" name="LEFT_BUMPER" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVw6IV6EeWOiZuWluocjA" name="RIGHT_BUMPER" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVw6YV6EeWOiZuWluocjA" name="LEFT_TRIGGER" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVw6oV6EeWOiZuWluocjA" name="RIGHT_TRIGGER" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVw64V6EeWOiZuWluocjA" name="BACK_BUTTON" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVw7IV6EeWOiZuWluocjA" name="START_BUTTON" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVw7YV6EeWOiZuWluocjA" name="LEFT_ANALOG_BUTTON" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVw7oV6EeWOiZuWluocjA" name="RIGHT_ANALOG_BUTTON" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVw74V6EeWOiZuWluocjA" name="LEFT_ANALOG_X" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVw8IV6EeWOiZuWluocjA" name="LEFT_ANALOG_Y" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVw8YV6EeWOiZuWluocjA" name="RIGHT_ANALOG_X" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVw8oV6EeWOiZuWluocjA" name="RIGHT_ANALOG_Y" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVw84V6EeWOiZuWluocjA" name="DPAD_X" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVw9IV6EeWOiZuWluocjA" name="DPAD_Y" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVw9YV6EeWOiZuWluocjA" name="COPY_DRIVE_USB_PORT" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_laVw9oV6EeWOiZuWluocjA" name="PASTE_DRIVE_USB_PORT" visibility="public" isLeaf="true" isStatic="true" type="_3i2r4IVuEeWOiZuWluocjA" isUnique="false"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_MvUzMIV7EeWOiZuWluocjA" name="Stack"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_SYroYIV7EeWOiZuWluocjA" memberEnd="_SYsPcIV7EeWOiZuWluocjA _SYsPcYV7EeWOiZuWluocjA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SYroYYV7EeWOiZuWluocjA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SYroYoV7EeWOiZuWluocjA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SYsPcIV7EeWOiZuWluocjA" name="stack" type="_MvUzMIV7EeWOiZuWluocjA" association="_SYroYIV7EeWOiZuWluocjA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SYsPcYV7EeWOiZuWluocjA" name="tool op" type="_q_emsIV1EeWOiZuWluocjA" association="_SYroYIV7EeWOiZuWluocjA"/>
+  </packagedElement>
+</uml:Model>
