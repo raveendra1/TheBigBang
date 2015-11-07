@@ -20,7 +20,6 @@ import com.team1285.robot.commands.twoBin;
 import com.team1285.robot.subsystems.DriveTrainCopy;
 import com.team1285.robot.subsystems.ElevatorCopy;
 import com.team1285.robot.subsystems.Intake;
-import com.team1285.robot.utilities.Constants;
 
 
 /**
