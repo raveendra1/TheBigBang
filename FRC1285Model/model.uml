@@ -1437,7 +1437,7 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_5ESlQoV1EeWOiZuWluocjA" name="usecase1" type="_wIz4AIV1EeWOiZuWluocjA" association="_5ER-MIV1EeWOiZuWluocjA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_5ETMUIV1EeWOiZuWluocjA" name="tool op" type="_q_emsIV1EeWOiZuWluocjA" association="_5ER-MIV1EeWOiZuWluocjA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_MvUzMIV7EeWOiZuWluocjA" name="Stack"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_MvUzMIV7EeWOiZuWluocjA" name="Intake Inward"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_SYroYIV7EeWOiZuWluocjA" memberEnd="_SYsPcIV7EeWOiZuWluocjA _SYsPcYV7EeWOiZuWluocjA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SYroYYV7EeWOiZuWluocjA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SYroYoV7EeWOiZuWluocjA" key="nature" value="UML_Nature"/>
@@ -1446,12 +1446,60 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_SYsPcYV7EeWOiZuWluocjA" name="tool op" type="_q_emsIV1EeWOiZuWluocjA" association="_SYroYIV7EeWOiZuWluocjA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_PpiHQIWLEeWOiZuWluocjA" name="Autonomous"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_bSxbQIWLEeWOiZuWluocjA" name="UseCase1"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_bSxbQIWLEeWOiZuWluocjA" name="Pick Up Container"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_4bA8wIWLEeWOiZuWluocjA" memberEnd="_4bBj0oWLEeWOiZuWluocjA _4bBj04WLEeWOiZuWluocjA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4bBj0IWLEeWOiZuWluocjA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4bBj0YWLEeWOiZuWluocjA" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_4bBj0oWLEeWOiZuWluocjA" name="usecase1" type="_bSxbQIWLEeWOiZuWluocjA" association="_4bA8wIWLEeWOiZuWluocjA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_4bBj04WLEeWOiZuWluocjA" name="autonomous" type="_PpiHQIWLEeWOiZuWluocjA" association="_4bA8wIWLEeWOiZuWluocjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_PvgKkIXGEeWOiZuWluocjA" name="Intake Outward"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_stkcYIXGEeWOiZuWluocjA" memberEnd="_stlDcIXGEeWOiZuWluocjA _stlDcYXGEeWOiZuWluocjA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_stkcYYXGEeWOiZuWluocjA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_stkcYoXGEeWOiZuWluocjA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_stlDcIXGEeWOiZuWluocjA" name="intake outward" type="_PvgKkIXGEeWOiZuWluocjA" association="_stkcYIXGEeWOiZuWluocjA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_stlDcYXGEeWOiZuWluocjA" name="tool op" type="_q_emsIV1EeWOiZuWluocjA" association="_stkcYIXGEeWOiZuWluocjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_t-stEIXGEeWOiZuWluocjA" name="Elevator Down"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0vj84IXGEeWOiZuWluocjA" memberEnd="_0vj844XGEeWOiZuWluocjA _0vj85IXGEeWOiZuWluocjA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0vj84YXGEeWOiZuWluocjA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0vj84oXGEeWOiZuWluocjA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0vj844XGEeWOiZuWluocjA" name="elevator down" type="_t-stEIXGEeWOiZuWluocjA" association="_0vj84IXGEeWOiZuWluocjA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0vj85IXGEeWOiZuWluocjA" name="tool op" type="_q_emsIV1EeWOiZuWluocjA" association="_0vj84IXGEeWOiZuWluocjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_2CjOwIXGEeWOiZuWluocjA" name="Intake Open"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_6YWKUIXGEeWOiZuWluocjA" name="Intake Close"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_9PFG4IXGEeWOiZuWluocjA" name="Claw Open"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="__HAR0IXGEeWOiZuWluocjA" name="Claw Close"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_RH984IXHEeWOiZuWluocjA" memberEnd="_RH9844XHEeWOiZuWluocjA _RH985IXHEeWOiZuWluocjA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RH984YXHEeWOiZuWluocjA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RH984oXHEeWOiZuWluocjA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_RH9844XHEeWOiZuWluocjA" name="intake open" type="_2CjOwIXGEeWOiZuWluocjA" association="_RH984IXHEeWOiZuWluocjA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_RH985IXHEeWOiZuWluocjA" name="tool op" type="_q_emsIV1EeWOiZuWluocjA" association="_RH984IXHEeWOiZuWluocjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Sqm0UIXHEeWOiZuWluocjA" memberEnd="_SqnbYYXHEeWOiZuWluocjA _SqnbYoXHEeWOiZuWluocjA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Sqm0UYXHEeWOiZuWluocjA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SqnbYIXHEeWOiZuWluocjA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SqnbYYXHEeWOiZuWluocjA" name="intake close" type="_6YWKUIXGEeWOiZuWluocjA" association="_Sqm0UIXHEeWOiZuWluocjA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SqnbYoXHEeWOiZuWluocjA" name="tool op" type="_q_emsIV1EeWOiZuWluocjA" association="_Sqm0UIXHEeWOiZuWluocjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UmpqQIXHEeWOiZuWluocjA" memberEnd="_UmpqQ4XHEeWOiZuWluocjA _UmqRUIXHEeWOiZuWluocjA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UmpqQYXHEeWOiZuWluocjA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UmpqQoXHEeWOiZuWluocjA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UmpqQ4XHEeWOiZuWluocjA" name="claw close" type="__HAR0IXGEeWOiZuWluocjA" association="_UmpqQIXHEeWOiZuWluocjA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UmqRUIXHEeWOiZuWluocjA" name="tool op" type="_q_emsIV1EeWOiZuWluocjA" association="_UmpqQIXHEeWOiZuWluocjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_X6O64IXHEeWOiZuWluocjA" memberEnd="_X6QJAIXHEeWOiZuWluocjA _X6QJAYXHEeWOiZuWluocjA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_X6Ph8IXHEeWOiZuWluocjA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_X6Ph8YXHEeWOiZuWluocjA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_X6QJAIXHEeWOiZuWluocjA" name="claw open" type="_9PFG4IXGEeWOiZuWluocjA" association="_X6O64IXHEeWOiZuWluocjA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_X6QJAYXHEeWOiZuWluocjA" name="tool op" type="_q_emsIV1EeWOiZuWluocjA" association="_X6O64IXHEeWOiZuWluocjA"/>
   </packagedElement>
 </uml:Model>
