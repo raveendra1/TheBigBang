@@ -8,7 +8,7 @@ import edu.wpi.first.wpilibj.CANTalon;
 import edu.wpi.first.wpilibj.Encoder;
 
 
-public class DriveTrainCopy extends Subsystem{
+public class DriveTrain extends Subsystem{
 
 	//Makes objects for the right drive talons
 	//Talon rightFront;
@@ -24,7 +24,7 @@ public class DriveTrainCopy extends Subsystem{
 	
 	
 	
-	public DriveTrainCopy(){
+	public DriveTrain(){
 		rightEncoder = new Encoder(ElectricalConstants.COPY_RIGHT_ENCODER_A, 
                 				   ElectricalConstants.COPY_RIGHT_ENCODER_B, 
                                    ElectricalConstants.rightDriveTrainEncoderReverse, 

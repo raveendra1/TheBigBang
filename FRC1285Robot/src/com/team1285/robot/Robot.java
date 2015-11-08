@@ -17,7 +17,7 @@ import com.team1285.robot.commands.ZeroElevator;
 import com.team1285.robot.commands.driveForward;
 import com.team1285.robot.commands.noAuto;
 import com.team1285.robot.commands.twoBin;
-import com.team1285.robot.subsystems.DriveTrainCopy;
+import com.team1285.robot.subsystems.DriveTrain;
 import com.team1285.robot.subsystems.ElevatorCopy;
 import com.team1285.robot.subsystems.Intake;
 
@@ -31,7 +31,7 @@ import com.team1285.robot.subsystems.Intake;
  */
 public class Robot extends IterativeRobot {
 
- public static DriveTrainCopy driveCopy;
+ public static DriveTrain driveCopy;
  public static ElevatorCopy elevatorCopy;
  public static Intake intake;
  public static Constants constant;
@@ -56,7 +56,7 @@ public class Robot extends IterativeRobot {
      * used for any initialization code.
      */
     public void robotInit() {   
-     driveCopy = new DriveTrainCopy();
+     driveCopy = new DriveTrain();
      elevatorCopy = new ElevatorCopy();
      intake = new Intake();
      oi = new OI();
