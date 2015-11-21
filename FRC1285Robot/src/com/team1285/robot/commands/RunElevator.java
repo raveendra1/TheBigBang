@@ -23,7 +23,7 @@ public class RunElevator extends Command {
         this.speed = speed;
         this.direction = direction;
         isTimeoutSet = false;
-        requires(Robot.elevatorCopy);
+        requires(Robot.elevator);
         
     }
     public RunElevator(double setpoint, double speed, String direction, double timeOut) {
@@ -33,23 +33,23 @@ public class RunElevator extends Command {
         this.direction = direction;
         this.timeOut = timeOut;
         //isTimeoutSet = true;
-        requires(Robot.elevatorCopy);
+        requires(Robot.elevator);
         
     }
 
     // Called just before this Command runs the first time
     protected void initialize() {
     	setTimeout(timeOut);
-    	Robot.elevatorCopy.elevPID.resetPID();
+    	Robot.elevator.elevPID.resetPID();
     	if (direction.equalsIgnoreCase("up"))
     	{
-    		Robot.elevatorCopy.elevPID.changePIDGains(Robot.elevatorP,
+    		Robot.elevator.elevPID.changePIDGains(Robot.elevatorP,
     												  Robot.elevatorI,
     												  Robot.elevatorD);
     	}
     	else if(direction.equalsIgnoreCase("down"))
     	{
-    		Robot.elevatorCopy.elevPID.changePIDGains(Robot.elevatorDownP,
+    		Robot.elevator.elevPID.changePIDGains(Robot.elevatorDownP,
 					  								  Robot.elevatorDownI,
 					  								  Robot.elevatorDownD);
     	}
@@ -58,24 +58,24 @@ public class RunElevator extends Command {
 
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
-    	Robot.elevatorCopy.elevatorSetpoint(setpoint, speed);
+    	Robot.elevator.elevatorSetpoint(setpoint, speed);
 	
     }
 
     // Make this return true when this Command no longer needs to run execute()
     protected boolean isFinished() {
     	if(direction.equalsIgnoreCase("up"))
-    		return !Robot.elevatorCopy.getTopBumper() || Math.abs(Robot.oi.getPasteRightY()) > 0.1 || Robot.elevatorCopy.getElevatorEncoder() >= (setpoint-2);
+    		return !Robot.elevator.getTopBumper() || Math.abs(Robot.oi.getPasteRightY()) > 0.1 || Robot.elevator.getElevatorEncoder() >= (setpoint-2);
     	else if (isTimedOut())
     		return true;
      	else 
-    		return !Robot.elevatorCopy.getBottomBumper() || Math.abs(Robot.oi.getPasteRightY()) > 0.1;
+    		return !Robot.elevator.getBottomBumper() || Math.abs(Robot.oi.getPasteRightY()) > 0.1;
 
     }
 
     // Called once after isFinished returns true
     protected void end() {
-    	Robot.elevatorCopy.runElevatorMotor(0);
+    	Robot.elevator.runElevatorMotor(0);
     }
 
     // Called when another command which requires one or more of the same

@@ -10,15 +10,15 @@ public class ActuateClaw extends Command{
 	
 	public ActuateClaw(boolean open){
 		this.open = open;
-		requires(Robot.elevatorCopy);
+		requires(Robot.elevator);
 	}
 	
 	@Override
 	protected void initialize() {
 		if(open)
-			Robot.elevatorCopy.openClawPiston();
+			Robot.elevator.openClawPiston();
 		else
-			Robot.elevatorCopy.closeClawPiston();
+			Robot.elevator.closeClawPiston();
 	}
 
 	@Override

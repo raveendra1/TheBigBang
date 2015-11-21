@@ -15,7 +15,7 @@ public class AutonGrabberDownCopy extends Command {
     public AutonGrabberDownCopy(double timeOut) {
         // Use requires() here to declare subsystem dependencies
         
-        requires(Robot.elevatorCopy);
+        requires(Robot.elevator);
         requires(Robot.driveCopy);
         this.timeOut = timeOut;
         
@@ -29,7 +29,7 @@ public class AutonGrabberDownCopy extends Command {
 
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
-    	Robot.elevatorCopy.openGrabberPiston();
+    	Robot.elevator.openGrabberPiston();
 	
     }
 

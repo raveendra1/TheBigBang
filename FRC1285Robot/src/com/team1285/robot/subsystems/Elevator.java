@@ -15,7 +15,7 @@ import edu.wpi.first.wpilibj.Timer;
 import edu.wpi.first.wpilibj.command.Subsystem;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
-public class ElevatorCopy extends Subsystem{
+public class Elevator extends Subsystem{
 
 	//Makes an object for the elevator talon
 	CANTalon elevatorLeftMotor;
@@ -43,7 +43,7 @@ public class ElevatorCopy extends Subsystem{
 	DoubleSolenoid grabberPiston;
 	DoubleSolenoid clawPiston;
 	
-	public ElevatorCopy(){
+	public Elevator(){
 		elevatorEncoder = new Encoder(ElectricalConstants.COPY_ELEVATOR_ENCODER_A,
 									  ElectricalConstants.COPY_ELEVATOR_ENCODER_B,
 									  ElectricalConstants.copyElevatorEncoderReverse,

@@ -17,7 +17,7 @@ public class AutonForCopy extends Command {
     public AutonForCopy(double right, double left, double timeOut) {
         // Use requires() here to declare subsystem dependencies
         
-        requires(Robot.elevatorCopy);
+        requires(Robot.elevator);
         requires(Robot.driveCopy);
         this.timeOut = timeOut;
         x = right;

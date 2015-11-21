@@ -17,7 +17,7 @@ public class nineTurn extends Command {
     public nineTurn(double distance, double timeOut, int side) {
         // Use requires() here to declare subsystem dependencies
         
-        requires(Robot.elevatorCopy);
+        requires(Robot.elevator);
         requires(Robot.driveCopy);
         this.timeOut = timeOut;
         this.distance = distance;

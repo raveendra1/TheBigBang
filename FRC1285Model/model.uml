@@ -1419,7 +1419,7 @@
       </packagedElement>
     </packagedElement>
   </packagedElement>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_q_emsIV1EeWOiZuWluocjA" name="Tool Op"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_q_emsIV1EeWOiZuWluocjA" name="Tool Operator"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_thDLkIV1EeWOiZuWluocjA" name="Driver"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_wIz4AIV1EeWOiZuWluocjA" name="ElevatorUp"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_xYiagIV1EeWOiZuWluocjA" name="TankDrive"/>
