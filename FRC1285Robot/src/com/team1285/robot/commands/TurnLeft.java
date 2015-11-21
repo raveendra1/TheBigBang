@@ -17,7 +17,7 @@ public class TurnLeft extends Command {
     public TurnLeft(double distance, double timeOut) {
         // Use requires() here to declare subsystem dependencies
         
-        requires(Robot.elevatorCopy);
+        requires(Robot.elevator);
         requires(Robot.driveCopy);
         this.timeOut = timeOut;
         this.distance = distance;

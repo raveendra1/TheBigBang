@@ -11,17 +11,17 @@ public class ToggleClaw extends Command{
 	boolean toggle = false;
 	
 	public ToggleClaw(){
-		requires(Robot.elevatorCopy);
+		requires(Robot.elevator);
 	}
 	
 	@Override
 	protected void initialize() {
 		if(toggle){
-			Robot.elevatorCopy.openClawPiston();
+			Robot.elevator.openClawPiston();
 			toggle = false;
 		}
 		else{
-			Robot.elevatorCopy.closeClawPiston();
+			Robot.elevator.closeClawPiston();
 			toggle = true;
 		}
 		new AutonPause(0.5);

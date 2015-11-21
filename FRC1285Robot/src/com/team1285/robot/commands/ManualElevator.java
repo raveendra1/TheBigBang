@@ -7,7 +7,7 @@ import edu.wpi.first.wpilibj.command.Command;
 public class ManualElevator extends Command{
 
 	public ManualElevator(){
-		requires(Robot.elevatorCopy);
+		requires(Robot.elevator);
 	}
 	
 	@Override
@@ -18,20 +18,20 @@ public class ManualElevator extends Command{
 
 	@Override
 	protected void execute() {
-		if(!Robot.elevatorCopy.getTopBumper()){
+		if(!Robot.elevator.getTopBumper()){
 			if(-Robot.oi.getPasteRightY() < -0.1)
-				Robot.elevatorCopy.runElevatorMotor(-Robot.oi.getPasteRightY());
+				Robot.elevator.runElevatorMotor(-Robot.oi.getPasteRightY());
 			else
-				Robot.elevatorCopy.runElevatorMotor(0);
+				Robot.elevator.runElevatorMotor(0);
 		}
-		else if(!Robot.elevatorCopy.getBottomBumper()){
+		else if(!Robot.elevator.getBottomBumper()){
 			if(-Robot.oi.getPasteRightY() > 0.1)
-				Robot.elevatorCopy.runElevatorMotor(-Robot.oi.getPasteRightY());
+				Robot.elevator.runElevatorMotor(-Robot.oi.getPasteRightY());
 			else
-				Robot.elevatorCopy.runElevatorMotor(0);
+				Robot.elevator.runElevatorMotor(0);
 		}
 		else{
-			Robot.elevatorCopy.runElevatorMotor(-Robot.oi.getPasteRightY());
+			Robot.elevator.runElevatorMotor(-Robot.oi.getPasteRightY());
 		}
 	}
 

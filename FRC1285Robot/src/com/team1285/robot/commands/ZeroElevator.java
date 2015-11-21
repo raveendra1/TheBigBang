@@ -10,7 +10,7 @@ public class ZeroElevator extends Command{
  
  public ZeroElevator(double timeout){
   this.timeout = timeout;
-  requires(Robot.elevatorCopy);
+  requires(Robot.elevator);
  }
 
  @Override
@@ -20,24 +20,24 @@ public class ZeroElevator extends Command{
 
  @Override
  protected void execute() {
-  Robot.elevatorCopy.runElevatorMotor(-0.25);
+  Robot.elevator.runElevatorMotor(-0.25);
  }
 
  @Override
  protected boolean isFinished() {
-  return !Robot.elevatorCopy.getBottomBumper() || isTimedOut();
+  return !Robot.elevator.getBottomBumper() || isTimedOut();
  }
 
  @Override
  protected void end() {
-  Robot.elevatorCopy.runElevatorMotor(0);
-  Robot.elevatorCopy.isZeroed = true;
-  Robot.elevatorCopy.resetEncoder();
+  Robot.elevator.runElevatorMotor(0);
+  Robot.elevator.isZeroed = true;
+  Robot.elevator.resetEncoder();
  }
 
  @Override
  protected void interrupted() {
-  Robot.elevatorCopy.runElevatorMotor(0);
+  Robot.elevator.runElevatorMotor(0);
   
  }
 

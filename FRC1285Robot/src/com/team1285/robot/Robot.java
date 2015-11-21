@@ -18,7 +18,7 @@ import com.team1285.robot.commands.driveForward;
 import com.team1285.robot.commands.noAuto;
 import com.team1285.robot.commands.twoBin;
 import com.team1285.robot.subsystems.DriveTrain;
-import com.team1285.robot.subsystems.ElevatorCopy;
+import com.team1285.robot.subsystems.Elevator;
 import com.team1285.robot.subsystems.Intake;
 
 
@@ -32,7 +32,7 @@ import com.team1285.robot.subsystems.Intake;
 public class Robot extends IterativeRobot {
 
  public static DriveTrain driveCopy;
- public static ElevatorCopy elevatorCopy;
+ public static Elevator elevator;
  public static Intake intake;
  public static Constants constant;
  public static OI oi;
@@ -57,7 +57,7 @@ public class Robot extends IterativeRobot {
      */
     public void robotInit() {   
      driveCopy = new DriveTrain();
-     elevatorCopy = new ElevatorCopy();
+     elevator = new Elevator();
      intake = new Intake();
      oi = new OI();
      autoChooser = new SendableChooser();
@@ -66,7 +66,7 @@ public class Robot extends IterativeRobot {
      autoChooser.addObject("Left Autozone", new ThreeTote(2));
      autoChooser.addObject("Pick Up Can", new ThreeTote(3));
      c.setClosedLoopControl(true);
-     elevatorCopy.openClawPiston();
+     elevator.openClawPiston();
      resetAllEncoders();
      //usbCamera = new USBCamera("copy");
      updateDashboard();
@@ -120,14 +120,14 @@ public class Robot extends IterativeRobot {
      
         if(oi.getPasteRightBumper())
         {
-         elevatorCopy.runSlowMotor(0.15);
+         elevator.runSlowMotor(0.15);
         }
         else if(oi.getPasteRightTrigger())
         {
-         elevatorCopy.runSlowMotor(-0.15);
+         elevator.runSlowMotor(-0.15);
         }
         else
-         elevatorCopy.runSlowMotor(0);
+         elevator.runSlowMotor(0);
         
         //if(!elevatorCopy.isZeroed)
         	//new ZeroElevator(2);
@@ -140,11 +140,11 @@ public class Robot extends IterativeRobot {
         //}
 	        if(oi.getPasteLeftTrigger())
 	        {
-	        	elevatorCopy.openClawPiston();
+	        	elevator.openClawPiston();
 	        }
 	        else if (oi.getPasteLeftBumper())
 	        {
-	        	elevatorCopy.closeClawPiston();
+	        	elevator.closeClawPiston();
 	        }
         
         updateDashboard();
@@ -162,17 +162,17 @@ public class Robot extends IterativeRobot {
      * This function is called to reset encoders before use
      */
     public void resetAllEncoders() {
-        elevatorCopy.resetEncoder();
+        elevator.resetEncoder();
         driveCopy.resetEncoders();
     }
     
     public void updateDashboard()
     {
-     SmartDashboard.putNumber("Elevator Encoder", Math.round(elevatorCopy.getElevatorEncoder()));
+     SmartDashboard.putNumber("Elevator Encoder", Math.round(elevator.getElevatorEncoder()));
         SmartDashboard.putNumber("Left Drive Encoder", Math.round(driveCopy.getLeftDriveEncoder()));
         SmartDashboard.putNumber("Right Drive Encoder", Math.round(driveCopy.getRightDriveEncoder()));
-        SmartDashboard.putBoolean("Top Limit", !elevatorCopy.getTopBumper());
-        SmartDashboard.putBoolean("Bottom Limit", !elevatorCopy.getBottomBumper());
+        SmartDashboard.putBoolean("Top Limit", !elevator.getTopBumper());
+        SmartDashboard.putBoolean("Bottom Limit", !elevator.getBottomBumper());
         SmartDashboard.putData("Select Auto",autoChooser);
     }
     
