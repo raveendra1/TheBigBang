@@ -7,7 +7,10 @@ public class Logger {
 		
 	}
 	
-	
-	
-	
+
+
+public void debug(String logMessage){
+		
+	}
+
 }
