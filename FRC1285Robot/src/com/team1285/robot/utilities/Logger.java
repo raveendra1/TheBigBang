@@ -6,4 +6,8 @@ public class Logger {
 	public void error(String logMessage){
 		
 	}
+	
+	
+	
+	
 }
