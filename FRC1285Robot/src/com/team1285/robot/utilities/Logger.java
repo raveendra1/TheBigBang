@@ -14,4 +14,10 @@ public void debug(String logMessage){
 	
 	}
 
+public void log(String logMessage){
+	
+	
+}
+
+
 }
